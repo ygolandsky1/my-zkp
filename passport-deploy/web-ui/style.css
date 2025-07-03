@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background: #f0f2f5;
+}
+button {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+#result {
+  margin-top: 1rem;
+  font-weight: bold;
+}

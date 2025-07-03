@@ -1,0 +1,37 @@
+{
+  "name": "passport-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.0.0",
+    "assert": "^2.1.0",
+    "browserify-zlib": "^0.2.0",
+    "crypto-browserify": "^3.12.1",
+    "dotenv": "^16.5.0",
+    "hardhat": "^2.25.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "rollup-plugin-polyfill-node": "^0.13.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.4"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "circomlib": "^2.0.5",
+    "circomlibjs": "^0.1.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "fixed-merkle-tree": "^0.7.3",
+    "snarkjs": "^0.7.5",
+    "vite-plugin-node-polyfills": "^0.23.0"
+  }
+}

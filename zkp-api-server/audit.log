@@ -1,0 +1,46 @@
+2025-06-29 18:20:52 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-06-29 18:21:20 [DEBUG] Received POST /api/log-proof request
+2025-06-29 18:21:20 [DEBUG] Loading Fabric configuration...
+2025-06-29 18:21:20 [DEBUG] Connection profile loaded and paths resolved
+2025-06-29 18:21:20 [DEBUG] Wallet initialized at /home/yoram/Projects/zkp-api-server/wallet
+2025-06-29 18:21:20 [DEBUG] Identity 'admin-org1' found in wallet
+2025-06-29 18:21:20 [INFO] Gateway connected successfully
+2025-06-29 18:21:20 [DEBUG] Connected to chaincode
+2025-06-29 18:21:20 [INFO] Submitting CreateLog transaction
+2025-06-29 18:21:20 [ERROR] Error during log-proof transaction No valid responses from any peers. Errors:
+2025-06-29 18:21:20 [DEBUG] Gateway disconnected
+2025-06-29 18:21:57 [DEBUG] Received GET /api/log/:id request
+2025-06-29 18:21:57 [DEBUG] Loading Fabric configuration...
+2025-06-29 18:21:57 [DEBUG] Identity 'admin-org1' found in wallet
+2025-06-29 18:21:57 [INFO] Gateway connected successfully
+2025-06-29 18:21:57 [DEBUG] Connected to chaincode for query
+2025-06-29 18:21:57 [INFO] Querying GetLog transaction
+2025-06-29 18:21:57 [ERROR] Error retrieving log Query failed. Errors: []
+2025-06-29 18:21:57 [DEBUG] Gateway disconnected
+2025-06-29 18:32:52 [DEBUG] Received POST /api/log-proof request
+2025-06-29 18:32:52 [DEBUG] Loading Fabric configuration...
+2025-06-29 18:32:52 [DEBUG] Identity 'admin-org1' found in wallet
+2025-06-29 18:32:52 [INFO] Gateway connected successfully
+2025-06-29 18:32:52 [DEBUG] Connected to chaincode
+2025-06-29 18:32:52 [INFO] Submitting CreateLog transaction
+2025-06-29 18:32:52 [ERROR] Error during log-proof transaction No valid responses from any peers. Errors:
+2025-06-29 18:32:52 [DEBUG] Gateway disconnected
+2025-07-02 19:20:34 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-02 19:21:40 [DEBUG] Received POST /api/log-proof request
+2025-07-02 19:21:40 [DEBUG] Loading Fabric configuration...
+2025-07-02 19:21:40 [DEBUG] Connection profile loaded and paths resolved
+2025-07-02 19:21:40 [DEBUG] Wallet initialized at /home/yoram/Projects/zkp-api-server/wallet
+2025-07-02 19:21:40 [DEBUG] Identity 'admin-org1' found in wallet
+2025-07-02 19:21:40 [INFO] Gateway connected successfully
+2025-07-02 19:21:40 [DEBUG] Connected to chaincode
+2025-07-02 19:21:40 [INFO] Submitting CreateLog transaction
+2025-07-02 19:21:40 [ERROR] Error during log-proof transaction No valid responses from any peers. Errors:
+2025-07-02 19:21:40 [DEBUG] Gateway disconnected
+2025-07-02 19:50:58 [DEBUG] Received POST /api/log-proof request
+2025-07-02 19:50:58 [DEBUG] Loading Fabric configuration...
+2025-07-02 19:50:58 [DEBUG] Identity 'admin-org1' found in wallet
+2025-07-02 19:51:01 [INFO] Gateway connected successfully
+2025-07-02 19:51:01 [DEBUG] Connected to chaincode
+2025-07-02 19:51:01 [INFO] Submitting CreateLog transaction
+2025-07-02 19:51:01 [ERROR] Error during log-proof transaction No valid responses from any peers. Errors:
+2025-07-02 19:51:01 [DEBUG] Gateway disconnected

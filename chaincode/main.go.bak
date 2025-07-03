@@ -1,0 +1,88 @@
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+
+	"github.com/hyperledger/fabric-contract-api-go/contractapi"
+)
+
+// SmartContract provides functions for logging ZK proofs and general logs
+type SmartContract struct {
+	contractapi.Contract
+}
+
+// ZKPLog describes a single proof entry
+type ZKPLog struct {
+	DocType   string `json:"docType"`
+	ProofHash string `json:"proofHash"`
+	Timestamp string `json:"timestamp"`
+	TxID      string `json:"txId"`
+}
+
+// LogEntry describes a general logging structure
+type LogEntry struct {
+	AgentID   string `json:"agent_id"`
+	Result    string `json:"result"`
+	Timestamp string `json:"timestamp"`
+	TxHash    string `json:"tx_hash"`
+}
+
+// CreateZKPLog stores a ZKP proof hash with timestamp on the ledger
+func (s *SmartContract) CreateZKPLog(ctx contractapi.TransactionContextInterface, proofHash string, timestamp string) error {
+	txID := ctx.GetStub().GetTxID()
+
+	log := ZKPLog{
+		DocType:   "log",
+		ProofHash: proofHash,
+		Timestamp: timestamp,
+		TxID:      txID,
+	}
+
+	logJSON, err := json.Marshal(log)
+	if err != nil {
+		return fmt.Errorf("failed to marshal ZKP log: %v", err)
+	}
+
+	return ctx.GetStub().PutState(txID, logJSON)
+}
+
+// CreateGenericLog stores a JSON log entry under a given logID
+func (s *SmartContract) CreateGenericLog(ctx contractapi.TransactionContextInterface, logID string, logJSON string) error {
+	var log LogEntry
+	err := json.Unmarshal([]byte(logJSON), &log)
+	if err != nil {
+		return fmt.Errorf("failed to unmarshal log JSON: %v", err)
+	}
+
+	logBytes, err := json.Marshal(log)
+	if err != nil {
+		return fmt.Errorf("failed to marshal log: %v", err)
+	}
+
+	return ctx.GetStub().PutState(logID, logBytes)
+}
+
+// GetLog retrieves a log by its logID
+func (s *SmartContract) GetLog(ctx contractapi.TransactionContextInterface, logID string) (string, error) {
+	logBytes, err := ctx.GetStub().GetState(logID)
+	if err != nil {
+		return "", fmt.Errorf("failed to read from ledger: %v", err)
+	}
+	if logBytes == nil {
+		return "", fmt.Errorf("log not found: %s", logID)
+	}
+	return string(logBytes), nil
+}
+
+func main() {
+	chaincode, err := contractapi.NewChaincode(new(SmartContract))
+	if err != nil {
+		fmt.Printf("Error creating chaincode: %s", err.Error())
+		return
+	}
+	if err := chaincode.Start(); err != nil {
+		fmt.Printf("Error starting chaincode: %s", err.Error())
+	}
+}
+
