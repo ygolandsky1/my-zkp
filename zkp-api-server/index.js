@@ -29,7 +29,7 @@ app.use(bodyParser.json());
 const CHANNEL_NAME = "zkpchannel";
 const CHAINCODE_NAME = "zkpLogger";
 
-const fabricNetworkPath = path.resolve(__dirname, '..', 'fabric-samples', 'test-network');
+const fabricNetworkPath = path.resolve(process.env.HOME, 'fabric-samples', 'test-network');
 const ccpPath = path.resolve(fabricNetworkPath, 'organizations', 'peerOrganizations', 'org1.example.com', 'connection-org1.json');
 const walletPath = path.resolve(__dirname, "wallet");
 
@@ -71,7 +71,7 @@ async function loadFabricConfig() {
 
 async function getGateway() {
   const { ccp, wallet } = await loadFabricConfig();
-  const identityLabel = "admin-org1";
+  const identityLabel = "admin";
   const identity = await wallet.get(identityLabel);
   if (!identity) {
     logger.error(`Identity '${identityLabel}' not found in wallet`);
@@ -84,7 +84,7 @@ async function getGateway() {
     await gateway.connect(ccp, {
       wallet,
       identity: identityLabel,
-      discovery: { enabled: false, asLocalhost: true },
+      discovery: { enabled: true },
     });
     logger.info('Gateway connected successfully');
     return gateway;
@@ -112,7 +112,7 @@ router.post("/log-proof", async (req, res) => {
 
     const tx = contract.createTransaction("CreateLog");
     // Test with single org to debug endorsement issue
-    tx.setEndorsingOrganizations("Org1MSP"); // Removed Org2MSP for testing
+   // tx.setEndorsingOrganizations("Org1MSP"); // Removed Org2MSP for testing
     logger.info('Submitting CreateLog transaction', { logID, logData, endorsingOrg: "Org1MSP" });
 
     const result = await tx.submit(logID, JSON.stringify(logData));
