@@ -23,7 +23,17 @@ async function main() {
       return;
     }
 
-    const enrollment = await ca.enroll({ enrollmentID: 'admin', enrollmentSecret: 'adminpw' });
+    // Enroll the admin user with registrar privileges
+    const enrollment = await ca.enroll({
+        enrollmentID: 'admin',
+        enrollmentSecret: 'adminpw',
+        profile: 'tls', // Required for attribute requests
+        attr_reqs: [
+            { name: 'hf.Registrar.Roles', value: 'client,user,peer,validator,auditor,registrar' },
+            { name: 'hf.Registrar.Attributes', value: '*' }
+        ]
+    });
+
     const x509Identity = {
       credentials: {
         certificate: enrollment.certificate,
@@ -42,3 +52,4 @@ async function main() {
 }
 
 main();
+

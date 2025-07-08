@@ -44,3 +44,304 @@
 2025-07-02 19:51:01 [INFO] Submitting CreateLog transaction
 2025-07-02 19:51:01 [ERROR] Error during log-proof transaction No valid responses from any peers. Errors:
 2025-07-02 19:51:01 [DEBUG] Gateway disconnected
+2025-07-06 17:11:00 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-06 17:12:36 [DEBUG] Received POST /api/log-proof request
+2025-07-06 17:12:36 [DEBUG] Loading Fabric configuration...
+2025-07-06 17:12:36 [ERROR] Missing CCP file at /home/vboxuser/my-zkp/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/connection-org1.json
+2025-07-06 17:12:36 [ERROR] Error during log-proof transaction Missing CCP file at /home/vboxuser/my-zkp/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/connection-org1.json
+2025-07-06 17:15:10 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-06 17:15:19 [DEBUG] Received POST /api/log-proof request
+2025-07-06 17:15:19 [DEBUG] Loading Fabric configuration...
+2025-07-06 17:15:19 [ERROR] Missing CCP file at /home/vboxuser/my-zkp/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/connection-org1.json
+2025-07-06 17:15:19 [ERROR] Error during log-proof transaction Missing CCP file at /home/vboxuser/my-zkp/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/connection-org1.json
+2025-07-06 18:03:42 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-06 18:03:51 [DEBUG] Received POST /api/log-proof request
+2025-07-06 18:03:51 [DEBUG] Loading Fabric configuration...
+2025-07-06 18:03:51 [DEBUG] Connection profile loaded and paths resolved
+2025-07-06 18:03:51 [DEBUG] Wallet initialized at /home/vboxuser/my-zkp/zkp-api-server/wallet
+2025-07-06 18:03:51 [DEBUG] Identity 'admin-org1' found in wallet
+2025-07-06 18:03:51 [INFO] Gateway connected successfully
+2025-07-06 18:03:51 [DEBUG] Connected to chaincode
+2025-07-06 18:03:51 [INFO] Submitting CreateLog transaction
+2025-07-06 18:03:51 [ERROR] Error during log-proof transaction No valid responses from any peers. Errors:
+2025-07-06 18:03:51 [DEBUG] Gateway disconnected
+2025-07-06 18:11:07 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-06 18:11:12 [DEBUG] Received POST /api/log-proof request
+2025-07-06 18:11:12 [DEBUG] Loading Fabric configuration...
+2025-07-06 18:11:12 [DEBUG] Connection profile loaded and paths resolved
+2025-07-06 18:11:12 [DEBUG] Wallet initialized at /home/vboxuser/my-zkp/zkp-api-server/wallet
+2025-07-06 18:11:12 [DEBUG] Identity 'admin-org1' found in wallet
+2025-07-06 18:11:12 [INFO] Gateway connected successfully
+2025-07-06 18:11:12 [DEBUG] Connected to chaincode
+2025-07-06 18:11:12 [INFO] Submitting CreateLog transaction
+2025-07-06 18:11:12 [ERROR] Error during log-proof transaction No valid responses from any peers. Errors:
+2025-07-06 18:11:12 [DEBUG] Gateway disconnected
+2025-07-06 18:36:48 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-06 18:36:56 [DEBUG] Received POST /api/log-proof request
+2025-07-06 18:36:56 [DEBUG] Loading Fabric configuration...
+2025-07-06 18:36:56 [DEBUG] Connection profile loaded and paths resolved
+2025-07-06 18:36:56 [DEBUG] Wallet initialized at /home/vboxuser/my-zkp/zkp-api-server/wallet
+2025-07-06 18:36:56 [DEBUG] Identity 'admin-org1' found in wallet
+2025-07-06 18:36:56 [INFO] Gateway connected successfully
+2025-07-06 18:36:56 [DEBUG] Connected to chaincode
+2025-07-06 18:36:56 [INFO] Submitting CreateLog transaction
+2025-07-06 18:36:56 [ERROR] Error during log-proof transaction No valid responses from any peers. Errors:
+2025-07-06 18:36:56 [DEBUG] Gateway disconnected
+2025-07-06 18:41:22 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-06 18:41:35 [DEBUG] Received POST /api/log-proof request
+2025-07-06 18:41:35 [DEBUG] Loading Fabric configuration...
+2025-07-06 18:41:35 [DEBUG] Connection profile loaded and paths resolved
+2025-07-06 18:41:35 [DEBUG] Wallet initialized at /home/vboxuser/my-zkp/zkp-api-server/wallet
+2025-07-06 18:41:35 [DEBUG] Identity 'admin-org1' found in wallet
+2025-07-06 18:41:35 [INFO] Gateway connected successfully
+2025-07-06 18:41:35 [ERROR] Error during log-proof transaction DiscoveryService: zkpchannel error: access denied
+2025-07-06 18:41:35 [DEBUG] Gateway disconnected
+2025-07-06 18:44:05 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-06 18:44:09 [DEBUG] Received POST /api/log-proof request
+2025-07-06 18:44:09 [DEBUG] Loading Fabric configuration...
+2025-07-06 18:44:09 [DEBUG] Connection profile loaded and paths resolved
+2025-07-06 18:44:09 [DEBUG] Wallet initialized at /home/vboxuser/my-zkp/zkp-api-server/wallet
+2025-07-06 18:44:09 [DEBUG] Identity 'admin-org1' found in wallet
+2025-07-06 18:44:10 [INFO] Gateway connected successfully
+2025-07-06 18:44:10 [ERROR] Error during log-proof transaction DiscoveryService: zkpchannel error: access denied
+2025-07-06 18:44:10 [DEBUG] Gateway disconnected
+2025-07-06 18:48:42 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-06 18:48:49 [DEBUG] Received POST /api/log-proof request
+2025-07-06 18:48:49 [DEBUG] Loading Fabric configuration...
+2025-07-06 18:48:49 [DEBUG] Connection profile loaded and paths resolved
+2025-07-06 18:48:49 [DEBUG] Wallet initialized at /home/vboxuser/my-zkp/zkp-api-server/wallet
+2025-07-06 18:48:49 [DEBUG] Identity 'admin-org1' found in wallet
+2025-07-06 18:48:49 [INFO] Gateway connected successfully
+2025-07-06 18:48:49 [ERROR] Error during log-proof transaction DiscoveryService: zkpchannel error: access denied
+2025-07-06 18:48:49 [DEBUG] Gateway disconnected
+2025-07-06 18:56:07 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-06 18:56:19 [DEBUG] Received POST /api/log-proof request
+2025-07-06 18:56:19 [DEBUG] Loading Fabric configuration...
+2025-07-06 18:56:19 [DEBUG] Connection profile loaded and paths resolved
+2025-07-06 18:56:19 [DEBUG] Wallet initialized at /home/vboxuser/my-zkp/zkp-api-server/wallet
+2025-07-06 18:56:19 [ERROR] Identity 'admin-org1' not found in wallet
+2025-07-06 18:56:19 [ERROR] Error during log-proof transaction ❌ Identity 'admin-org1' not found in wallet.
+2025-07-06 18:59:33 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-06 18:59:47 [DEBUG] Received POST /api/log-proof request
+2025-07-06 18:59:47 [DEBUG] Loading Fabric configuration...
+2025-07-06 18:59:47 [DEBUG] Connection profile loaded and paths resolved
+2025-07-06 18:59:47 [DEBUG] Wallet initialized at /home/vboxuser/my-zkp/zkp-api-server/wallet
+2025-07-06 18:59:47 [DEBUG] Identity 'admin' found in wallet
+2025-07-06 18:59:47 [INFO] Gateway connected successfully
+2025-07-06 18:59:47 [DEBUG] Connected to chaincode
+2025-07-06 18:59:47 [INFO] Submitting CreateLog transaction
+2025-07-06 18:59:49 [INFO] CreateLog transaction submitted successfully
+{"logID":"logFromAPI","logData":{"agentId":"api-test-123","result":"success","timestamp":"2025-07-06T17:10:00Z"}}
+2025-07-06 18:59:49 [DEBUG] Audit log written to file
+2025-07-06 18:59:49 [DEBUG] Gateway disconnected
+2025-07-06 19:01:32 [DEBUG] Received GET /api/log/:id request
+2025-07-06 19:01:32 [DEBUG] Loading Fabric configuration...
+2025-07-06 19:01:32 [DEBUG] Identity 'admin' found in wallet
+2025-07-06 19:01:32 [INFO] Gateway connected successfully
+2025-07-06 19:01:33 [DEBUG] Connected to chaincode for query
+2025-07-06 19:01:33 [INFO] Querying GetLog transaction
+2025-07-06 19:01:33 [INFO] GetLog query successful
+2025-07-06 19:01:33 [DEBUG] Gateway disconnected
+2025-07-06 19:25:06 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-06 19:51:10 [DEBUG] Received POST /api/log-proof request
+2025-07-06 19:51:10 [DEBUG] Loading Fabric configuration...
+2025-07-06 19:51:10 [DEBUG] Connection profile loaded and paths resolved
+2025-07-06 19:51:10 [DEBUG] Wallet initialized at /home/vboxuser/my-zkp/zkp-api-server/wallet
+2025-07-06 19:51:10 [DEBUG] Identity 'admin' found in wallet
+2025-07-06 19:51:11 [INFO] Gateway connected successfully
+2025-07-06 19:51:11 [DEBUG] Connected to chaincode
+2025-07-06 19:51:11 [INFO] Submitting CreateLog transaction
+2025-07-06 19:51:13 [INFO] CreateLog transaction submitted successfully
+{"logID":"log_111_1751820670819","logData":{"agentId":"111","result":"Verified","timestamp":"2025-07-06T16:51:10.819Z","proofHash":"0x_mock_proof_hash"}}
+2025-07-06 19:51:13 [DEBUG] Audit log written to file
+2025-07-06 19:51:13 [DEBUG] Gateway disconnected
+2025-07-06 19:51:25 [DEBUG] Received POST /api/log-proof request
+2025-07-06 19:51:25 [DEBUG] Loading Fabric configuration...
+2025-07-06 19:51:25 [DEBUG] Identity 'admin' found in wallet
+2025-07-06 19:51:25 [INFO] Gateway connected successfully
+2025-07-06 19:51:25 [DEBUG] Connected to chaincode
+2025-07-06 19:51:25 [INFO] Submitting CreateLog transaction
+2025-07-06 19:51:28 [INFO] CreateLog transaction submitted successfully
+{"logID":"log_112_1751820685662","logData":{"agentId":"112","result":"Verified","timestamp":"2025-07-06T16:51:25.662Z","proofHash":"0x_mock_proof_hash"}}
+2025-07-06 19:51:28 [DEBUG] Audit log written to file
+2025-07-06 19:51:28 [DEBUG] Gateway disconnected
+2025-07-06 19:51:36 [DEBUG] Received POST /api/log-proof request
+2025-07-06 19:51:36 [DEBUG] Loading Fabric configuration...
+2025-07-06 19:51:36 [DEBUG] Identity 'admin' found in wallet
+2025-07-06 19:51:36 [INFO] Gateway connected successfully
+2025-07-06 19:51:36 [DEBUG] Connected to chaincode
+2025-07-06 19:51:36 [INFO] Submitting CreateLog transaction
+2025-07-06 19:51:38 [INFO] CreateLog transaction submitted successfully
+{"logID":"log_105_1751820696510","logData":{"agentId":"105","result":"Verified","timestamp":"2025-07-06T16:51:36.510Z","proofHash":"0x_mock_proof_hash"}}
+2025-07-06 19:51:38 [DEBUG] Audit log written to file
+2025-07-06 19:51:38 [DEBUG] Gateway disconnected
+2025-07-06 19:51:50 [DEBUG] Received POST /api/log-proof request
+2025-07-06 19:51:50 [DEBUG] Loading Fabric configuration...
+2025-07-06 19:51:50 [DEBUG] Identity 'admin' found in wallet
+2025-07-06 19:51:50 [INFO] Gateway connected successfully
+2025-07-06 19:51:50 [DEBUG] Connected to chaincode
+2025-07-06 19:51:50 [INFO] Submitting CreateLog transaction
+2025-07-06 19:51:53 [INFO] CreateLog transaction submitted successfully
+{"logID":"log_10500000_1751820710822","logData":{"agentId":"10500000","result":"Verified","timestamp":"2025-07-06T16:51:50.822Z","proofHash":"0x_mock_proof_hash"}}
+2025-07-06 19:51:53 [DEBUG] Audit log written to file
+2025-07-06 19:51:53 [DEBUG] Gateway disconnected
+2025-07-07 14:53:56 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-07 15:21:10 [DEBUG] Received POST /api/log-proof request
+2025-07-07 15:21:10 [DEBUG] Loading Fabric configuration...
+2025-07-07 15:21:10 [DEBUG] Connection profile loaded and paths resolved
+2025-07-07 15:21:10 [DEBUG] Wallet initialized at /home/vboxuser/my-zkp/zkp-api-server/wallet
+2025-07-07 15:21:10 [DEBUG] Identity 'admin' found in wallet
+2025-07-07 15:21:10 [INFO] Gateway connected successfully
+2025-07-07 15:21:10 [DEBUG] Connected to chaincode
+2025-07-07 15:21:10 [INFO] Submitting CreateLog transaction
+2025-07-07 15:21:13 [INFO] CreateLog transaction submitted successfully
+{"logID":"log_100_1751890870545","logData":{"agentId":"100","result":"Verified","timestamp":"2025-07-07T12:21:10.545Z","proofHash":"0x_simulated_approval_for_100"}}
+2025-07-07 15:21:13 [DEBUG] Audit log written to file
+2025-07-07 15:21:13 [DEBUG] Gateway disconnected
+2025-07-07 17:13:19 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-07 17:16:15 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-07 17:16:15 [ERROR] Error during agent registration DiscoveryService: zkpchannel error: access denied
+2025-07-07 18:11:27 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-07 18:13:10 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-07 18:13:11 [INFO] Submitting RegisterAgent transaction for Agent ID: ca2ac822-8fa4-487b-953e-85f256e7dac3
+2025-07-07 18:24:20 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-07 18:27:01 [DEBUG] Received GET /api/agents request
+2025-07-07 18:27:01 [DEBUG] Received GET /api/agents request
+2025-07-07 18:27:43 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-07 18:27:43 [INFO] Submitting RegisterAgent transaction for Agent ID: 7cff70cb-8951-43b8-a028-7b0cee07d6d3
+2025-07-07 18:27:45 [DEBUG] Received GET /api/agents request
+2025-07-07 18:28:18 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-07 18:28:18 [INFO] Submitting RegisterAgent transaction for Agent ID: b52c5525-42d3-4693-bfd3-5c8ce37aafa7
+2025-07-07 18:28:20 [DEBUG] Received GET /api/agents request
+2025-07-07 18:34:54 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-07 18:35:09 [DEBUG] Received GET /api/agents request
+2025-07-07 18:35:10 [DEBUG] Received GET /api/agents request
+2025-07-07 18:35:10 [DEBUG] Received GET /api/agents request
+2025-07-07 18:35:10 [DEBUG] Received GET /api/agents request
+2025-07-07 18:35:40 [DEBUG] Received POST /api/execute request
+2025-07-07 18:35:40 [WARN] Execution denied for 7cff70cb-8951-43b8-a028-7b0cee07d6d3: Invalid passport signature.
+2025-07-07 18:35:46 [DEBUG] Received POST /api/execute request
+2025-07-07 18:35:46 [WARN] Execution denied for 7cff70cb-8951-43b8-a028-7b0cee07d6d3: Invalid passport signature.
+2025-07-07 18:35:50 [DEBUG] Received POST /api/execute request
+2025-07-07 18:35:50 [WARN] Execution denied for 7cff70cb-8951-43b8-a028-7b0cee07d6d3: Invalid passport signature.
+2025-07-07 18:35:53 [DEBUG] Received POST /api/execute request
+2025-07-07 18:35:53 [WARN] Execution denied for 7cff70cb-8951-43b8-a028-7b0cee07d6d3: Invalid passport signature.
+2025-07-07 18:36:15 [DEBUG] Received POST /api/execute request
+2025-07-07 18:36:15 [WARN] Execution denied for b52c5525-42d3-4693-bfd3-5c8ce37aafa7: Invalid passport signature.
+2025-07-07 18:36:21 [DEBUG] Received POST /api/execute request
+2025-07-07 18:36:21 [WARN] Execution denied for b52c5525-42d3-4693-bfd3-5c8ce37aafa7: Invalid passport signature.
+2025-07-07 18:36:27 [DEBUG] Received POST /api/execute request
+2025-07-07 18:36:27 [WARN] Execution denied for b52c5525-42d3-4693-bfd3-5c8ce37aafa7: Invalid passport signature.
+2025-07-07 18:36:36 [DEBUG] Received GET /api/agents request
+2025-07-07 18:36:36 [DEBUG] Received GET /api/agents request
+2025-07-07 18:36:36 [DEBUG] Received GET /api/agents request
+2025-07-07 18:36:36 [DEBUG] Received GET /api/agents request
+2025-07-07 18:36:42 [DEBUG] Received GET /api/agents request
+2025-07-07 18:36:42 [DEBUG] Received GET /api/agents request
+2025-07-07 18:36:42 [DEBUG] Received GET /api/agents request
+2025-07-07 18:36:42 [DEBUG] Received GET /api/agents request
+2025-07-07 18:36:57 [DEBUG] Received POST /api/execute request
+2025-07-07 18:36:57 [WARN] Execution denied for 7cff70cb-8951-43b8-a028-7b0cee07d6d3: Invalid passport signature.
+2025-07-07 18:37:05 [DEBUG] Received POST /api/execute request
+2025-07-07 18:37:05 [WARN] Execution denied for b52c5525-42d3-4693-bfd3-5c8ce37aafa7: Invalid passport signature.
+2025-07-07 18:37:08 [DEBUG] Received POST /api/execute request
+2025-07-07 18:37:08 [WARN] Execution denied for b52c5525-42d3-4693-bfd3-5c8ce37aafa7: Invalid passport signature.
+2025-07-07 18:37:12 [DEBUG] Received POST /api/execute request
+2025-07-07 18:37:12 [WARN] Execution denied for b52c5525-42d3-4693-bfd3-5c8ce37aafa7: Invalid passport signature.
+2025-07-07 18:48:34 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-07 18:48:46 [DEBUG] Received GET /api/agents request
+2025-07-07 18:48:46 [DEBUG] Received GET /api/agents request
+2025-07-07 18:48:46 [DEBUG] Received GET /api/agents request
+2025-07-07 18:48:46 [DEBUG] Received GET /api/agents request
+2025-07-07 18:48:54 [DEBUG] Received POST /api/execute request
+2025-07-07 18:48:54 [DEBUG] Fetching official passport for agent: 7cff70cb-8951-43b8-a028-7b0cee07d6d3
+2025-07-07 18:48:54 [INFO] Passport for 7cff70cb-8951-43b8-a028-7b0cee07d6d3 is valid.
+2025-07-07 18:48:54 [INFO] Intent validated for Agent ID: 7cff70cb-8951-43b8-a028-7b0cee07d6d3
+2025-07-07 18:48:54 [INFO] Submitting LogAction transaction for Log ID: log_7cff70cb-8951-43b8-a028-7b0cee07d6d3_1751903334515
+2025-07-07 18:48:56 [DEBUG] Received GET /api/agents request
+2025-07-07 18:49:07 [DEBUG] Received POST /api/execute request
+2025-07-07 18:49:07 [DEBUG] Fetching official passport for agent: 7cff70cb-8951-43b8-a028-7b0cee07d6d3
+2025-07-07 18:49:07 [INFO] Passport for 7cff70cb-8951-43b8-a028-7b0cee07d6d3 is valid.
+2025-07-07 18:49:07 [WARN] Execution denied for 7cff70cb-8951-43b8-a028-7b0cee07d6d3: Role 'ReadOnly' cannot perform action 'DELETE'.
+2025-07-07 18:49:20 [DEBUG] Received POST /api/execute request
+2025-07-07 18:49:20 [DEBUG] Fetching official passport for agent: b52c5525-42d3-4693-bfd3-5c8ce37aafa7
+2025-07-07 18:49:20 [INFO] Passport for b52c5525-42d3-4693-bfd3-5c8ce37aafa7 is valid.
+2025-07-07 18:49:20 [INFO] Intent validated for Agent ID: b52c5525-42d3-4693-bfd3-5c8ce37aafa7
+2025-07-07 18:49:20 [INFO] Submitting LogAction transaction for Log ID: log_b52c5525-42d3-4693-bfd3-5c8ce37aafa7_1751903360412
+2025-07-07 18:49:22 [DEBUG] Received GET /api/agents request
+2025-07-07 18:49:27 [DEBUG] Received POST /api/execute request
+2025-07-07 18:49:27 [DEBUG] Fetching official passport for agent: 7cff70cb-8951-43b8-a028-7b0cee07d6d3
+2025-07-07 18:49:27 [INFO] Passport for 7cff70cb-8951-43b8-a028-7b0cee07d6d3 is valid.
+2025-07-07 18:49:27 [WARN] Execution denied for 7cff70cb-8951-43b8-a028-7b0cee07d6d3: Role 'ReadOnly' cannot perform action 'WRITE'.
+2025-07-07 18:49:49 [DEBUG] Received POST /api/execute request
+2025-07-07 18:49:50 [DEBUG] Fetching official passport for agent: 7cff70cb-8951-43b8-a028-7b0cee07d6d3
+2025-07-07 18:49:50 [INFO] Passport for 7cff70cb-8951-43b8-a028-7b0cee07d6d3 is valid.
+2025-07-07 18:49:50 [WARN] Execution denied for 7cff70cb-8951-43b8-a028-7b0cee07d6d3: Role 'ReadOnly' cannot perform action 'DELETE'.
+2025-07-07 18:50:09 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-07 18:50:09 [INFO] Submitting RegisterAgent transaction for Agent ID: c202a1a8-c5e1-4c54-b4a1-43f887aa35c9
+2025-07-07 18:50:11 [DEBUG] Received GET /api/agents request
+2025-07-07 18:50:24 [DEBUG] Received GET /api/agents request
+2025-07-07 18:50:24 [DEBUG] Received GET /api/agents request
+2025-07-07 18:50:24 [DEBUG] Received GET /api/agents request
+2025-07-07 18:50:24 [DEBUG] Received GET /api/agents request
+2025-07-07 18:50:37 [DEBUG] Received POST /api/execute request
+2025-07-07 18:50:37 [DEBUG] Fetching official passport for agent: c202a1a8-c5e1-4c54-b4a1-43f887aa35c9
+2025-07-07 18:50:37 [INFO] Passport for c202a1a8-c5e1-4c54-b4a1-43f887aa35c9 is valid.
+2025-07-07 18:50:37 [INFO] Intent validated for Agent ID: c202a1a8-c5e1-4c54-b4a1-43f887aa35c9
+2025-07-07 18:50:37 [INFO] Submitting LogAction transaction for Log ID: log_c202a1a8-c5e1-4c54-b4a1-43f887aa35c9_1751903437585
+2025-07-07 18:50:39 [DEBUG] Received GET /api/agents request
+2025-07-07 18:50:59 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-07 18:50:59 [INFO] Submitting RegisterAgent transaction for Agent ID: a3bdc782-72da-4047-ab24-c556876a01a9
+2025-07-07 18:51:01 [DEBUG] Received GET /api/agents request
+2025-07-07 18:51:10 [DEBUG] Received GET /api/agents request
+2025-07-07 18:51:10 [DEBUG] Received GET /api/agents request
+2025-07-07 18:51:10 [DEBUG] Received GET /api/agents request
+2025-07-07 18:51:10 [DEBUG] Received GET /api/agents request
+2025-07-08 12:00:21 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-08 12:00:58 [DEBUG] Received GET /api/agents request
+2025-07-08 12:00:58 [DEBUG] Received GET /api/agents request
+2025-07-08 12:00:58 [DEBUG] Received GET /api/agents request
+2025-07-08 12:00:58 [DEBUG] Received GET /api/agents request
+2025-07-08 12:00:58 [ERROR] Error querying all agents Unexpected end of JSON input
+2025-07-08 12:00:58 [ERROR] Error querying all agents Unexpected end of JSON input
+2025-07-08 12:00:58 [ERROR] Error querying all agents Unexpected end of JSON input
+2025-07-08 12:00:58 [ERROR] Error querying all agents Unexpected end of JSON input
+2025-07-08 12:01:33 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-08 12:01:33 [INFO] Submitting RegisterAgent transaction for Agent ID: b48bb250-f9bd-4354-8799-27936f0d1b34
+2025-07-08 12:01:36 [DEBUG] Received GET /api/agents request
+2025-07-08 12:01:49 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-08 12:01:49 [INFO] Submitting RegisterAgent transaction for Agent ID: 2a8358d6-8118-4b40-888c-6219bc5acb00
+2025-07-08 12:01:52 [DEBUG] Received GET /api/agents request
+2025-07-08 12:02:00 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-08 12:02:00 [INFO] Submitting RegisterAgent transaction for Agent ID: 3f444d60-b452-425f-bcfd-3cf8272ed100
+2025-07-08 12:02:03 [DEBUG] Received GET /api/agents request
+2025-07-08 12:02:11 [DEBUG] Received GET /api/agents request
+2025-07-08 12:02:11 [DEBUG] Received GET /api/agents request
+2025-07-08 12:02:11 [DEBUG] Received GET /api/agents request
+2025-07-08 12:02:11 [DEBUG] Received GET /api/agents request
+2025-07-08 12:02:23 [DEBUG] Received POST /api/execute request
+2025-07-08 12:02:23 [DEBUG] Fetching official passport for agent: b48bb250-f9bd-4354-8799-27936f0d1b34
+2025-07-08 12:02:23 [INFO] Passport for b48bb250-f9bd-4354-8799-27936f0d1b34 is valid.
+2025-07-08 12:02:23 [INFO] Intent validated for Agent ID: b48bb250-f9bd-4354-8799-27936f0d1b34
+2025-07-08 12:02:23 [INFO] Submitting LogAction transaction for Log ID: log_b48bb250-f9bd-4354-8799-27936f0d1b34_1751965343991
+2025-07-08 12:02:26 [DEBUG] Received GET /api/agents request
+2025-07-08 12:02:31 [DEBUG] Received POST /api/execute request
+2025-07-08 12:02:31 [DEBUG] Fetching official passport for agent: 2a8358d6-8118-4b40-888c-6219bc5acb00
+2025-07-08 12:02:31 [INFO] Passport for 2a8358d6-8118-4b40-888c-6219bc5acb00 is valid.
+2025-07-08 12:02:31 [INFO] Intent validated for Agent ID: 2a8358d6-8118-4b40-888c-6219bc5acb00
+2025-07-08 12:02:31 [INFO] Submitting LogAction transaction for Log ID: log_2a8358d6-8118-4b40-888c-6219bc5acb00_1751965351247
+2025-07-08 12:02:33 [DEBUG] Received GET /api/agents request
+2025-07-08 12:02:52 [DEBUG] Received POST /api/execute request
+2025-07-08 12:02:52 [DEBUG] Fetching official passport for agent: b48bb250-f9bd-4354-8799-27936f0d1b34
+2025-07-08 12:02:52 [INFO] Passport for b48bb250-f9bd-4354-8799-27936f0d1b34 is valid.
+2025-07-08 12:02:52 [WARN] Execution denied for b48bb250-f9bd-4354-8799-27936f0d1b34: Role 'ReadOnly' cannot perform action 'WRITE'.
+2025-07-08 12:03:01 [DEBUG] Received POST /api/execute request
+2025-07-08 12:03:01 [DEBUG] Fetching official passport for agent: 2a8358d6-8118-4b40-888c-6219bc5acb00
+2025-07-08 12:03:01 [INFO] Passport for 2a8358d6-8118-4b40-888c-6219bc5acb00 is valid.
+2025-07-08 12:03:01 [WARN] Execution denied for 2a8358d6-8118-4b40-888c-6219bc5acb00: Role 'DataProcessor' cannot perform action 'DELETE'.
+2025-07-08 12:03:07 [DEBUG] Received POST /api/execute request
+2025-07-08 12:03:07 [DEBUG] Fetching official passport for agent: 3f444d60-b452-425f-bcfd-3cf8272ed100
+2025-07-08 12:03:07 [INFO] Passport for 3f444d60-b452-425f-bcfd-3cf8272ed100 is valid.
+2025-07-08 12:03:07 [INFO] Intent validated for Agent ID: 3f444d60-b452-425f-bcfd-3cf8272ed100
+2025-07-08 12:03:07 [INFO] Submitting LogAction transaction for Log ID: log_3f444d60-b452-425f-bcfd-3cf8272ed100_1751965387578
+2025-07-08 12:03:09 [DEBUG] Received GET /api/agents request

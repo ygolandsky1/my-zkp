@@ -1,7 +1,21 @@
-import * as snarkjs from 'snarkjs';
+// utils/verifyPassport.js
+const crypto = require('crypto');
 
-export async function verifyProof(proof, publicSignals, vkey) {
-  const verified = await snarkjs.groth16.verify(vkey, publicSignals, proof);
-  if (!verified) throw new Error("Proof verification failed");
-  return true;
+const HMAC_SECRET_KEY = 'LaGuardAI-Secret-Key-For-PoC';
+
+function generateSignature(agentId, issuedAt) {
+  const hmac = crypto.createHmac('sha256', HMAC_SECRET_KEY);
+  hmac.update(agentId + issuedAt);
+  return hmac.digest('hex');
 }
+
+function verifyPassport(passport) {
+  if (!passport || !passport.agentId || !passport.issuedAt || !passport.signature) {
+    return false;
+  }
+  const expectedSignature = generateSignature(passport.agentId, passport.issuedAt);
+  return crypto.timingSafeEqual(Buffer.from(passport.signature), Buffer.from(expectedSignature));
+}
+
+module.exports = { generateSignature, verifyPassport };
+
