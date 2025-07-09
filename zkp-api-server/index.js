@@ -39,6 +39,7 @@ const POLICY = {
     ReadOnly: ["GET", "READ"],
     DataProcessor: ["GET", "READ", "POST", "WRITE"],
     Admin: ["GET", "READ", "POST", "WRITE", "DELETE"],
+    "ETL Agent": ["GET", "READ", "POST", "WRITE"],
 };
 
 // --- Fabric Connection Helper ---
@@ -121,8 +122,8 @@ router.post("/execute", async (req, res) => {
         const officialPassport = JSON.parse(officialPassportBytes.toString());
 
         if (officialPassport.signature !== submittedPassport.signature) {
-             logger.warn(`Execution denied for ${submittedPassport.agentId}: Submitted passport does not match on-chain record.`);
-             return res.status(403).json({ error: "Access Denied: Invalid passport." });
+            logger.warn(`Execution denied for ${submittedPassport.agentId}: Submitted passport does not match on-chain record.`);
+            return res.status(403).json({ error: "Access Denied: Invalid passport." });
         }
         logger.info(`Passport for ${submittedPassport.agentId} is valid.`);
 
@@ -133,24 +134,35 @@ router.post("/execute", async (req, res) => {
         }
         logger.info(`Intent validated for Agent ID: ${officialPassport.agentId}`);
 
+        // --- THIS IS THE CORRECTED LOGIC ---
+
         const logId = `log_${officialPassport.agentId}_${Date.now()}`;
-        
-        // *** THIS IS THE FIX ***
-        // We now pass the entire intent object to the chaincode, not just a part of it.
         const actionDetails = {
-            logId,
             agentId: officialPassport.agentId,
-            intent: intent, // Pass the whole intent object { action: "...", target: "..." }
-            result: "Success (Allowed)",
-            timestamp: new Date().toISOString(),
+            intent: intent,
             passportValid: true,
+            timestamp: new Date().toISOString(),
         };
 
         logger.info(`Submitting LogAction transaction for Log ID: ${logId}`);
-        const tx = contract.createTransaction("LogAction");
-        await tx.submit(logId, JSON.stringify(actionDetails));
+        
+        // 1. Use submitTransaction to capture the return value from the chaincode
+        const resultBytes = await contract.submitTransaction(
+            "LogAction", 
+            logId, 
+            JSON.stringify(actionDetails)
+        );
 
-        res.status(200).json({ message: "✅ Action executed and logged successfully", txId: tx.getTransactionId() });
+        // 2. Convert the result from a raw buffer to a readable string
+        const resultString = Buffer.from(resultBytes).toString();
+        logger.info(`Chaincode returned result: ${resultString}`);
+
+        // 3. Send the actual result from the chaincode back to the Python agent
+        res.status(200).json({ 
+            result: resultString, 
+            transactionId: logId 
+        });
+        
     } catch (err) {
         logger.error('Error during action execution', { message: err.message, stack: err.stack });
         res.status(500).json({ error: "Blockchain execution failed", details: err.message });
@@ -158,7 +170,6 @@ router.post("/execute", async (req, res) => {
         gateway?.disconnect();
     }
 });
-
 router.get("/agents", async (req, res) => {
     logger.debug('Received GET /api/agents request');
     let gateway;

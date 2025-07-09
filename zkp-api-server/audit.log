@@ -503,3 +503,60 @@
 2025-07-09 10:01:13 [DEBUG] Received POST /api/execute request
 2025-07-09 10:01:13 [INFO] Passport for dcf73ce8-610f-4b7c-bef2-716b0f353904 is valid.
 2025-07-09 10:01:13 [WARN] Execution denied for dcf73ce8-610f-4b7c-bef2-716b0f353904: Role 'DataProcessor' cannot perform action 'DELETE'.
+2025-07-09 15:17:16 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-09 15:17:31 [DEBUG] Received GET /api/agents request
+2025-07-09 15:17:31 [DEBUG] Received GET /api/agents request
+2025-07-09 15:20:19 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-09 15:20:19 [INFO] Submitting RegisterAgent transaction for Agent ID: 5e1085c4-81b3-42b5-abc7-eaebd646008a
+2025-07-09 15:22:22 [DEBUG] Received POST /api/execute request
+2025-07-09 15:22:22 [INFO] Passport for 5e1085c4-81b3-42b5-abc7-eaebd646008a is valid.
+2025-07-09 15:22:22 [WARN] Execution denied for 5e1085c4-81b3-42b5-abc7-eaebd646008a: Role 'ETL Agent' cannot perform action 'WRITE'.
+2025-07-09 15:24:46 [DEBUG] Received POST /api/execute request
+2025-07-09 15:24:46 [INFO] Passport for 5e1085c4-81b3-42b5-abc7-eaebd646008a is valid.
+2025-07-09 15:24:46 [WARN] Execution denied for 5e1085c4-81b3-42b5-abc7-eaebd646008a: Role 'ETL Agent' cannot perform action 'WRITE'.
+2025-07-09 15:31:45 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-09 15:34:05 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-09 15:34:05 [INFO] Submitting RegisterAgent transaction for Agent ID: d11aa244-7bc8-40eb-8445-af2c77cc8d85
+2025-07-09 15:34:58 [DEBUG] Received POST /api/execute request
+2025-07-09 15:34:58 [INFO] Passport for d11aa244-7bc8-40eb-8445-af2c77cc8d85 is valid.
+2025-07-09 15:34:58 [INFO] Intent validated for Agent ID: d11aa244-7bc8-40eb-8445-af2c77cc8d85
+2025-07-09 15:34:58 [INFO] Submitting LogAction transaction for Log ID: log_d11aa244-7bc8-40eb-8445-af2c77cc8d85_1752064498550
+2025-07-09 15:35:49 [DEBUG] Received POST /api/execute request
+2025-07-09 15:35:49 [INFO] Passport for d11aa244-7bc8-40eb-8445-af2c77cc8d85 is valid.
+2025-07-09 15:35:49 [INFO] Intent validated for Agent ID: d11aa244-7bc8-40eb-8445-af2c77cc8d85
+2025-07-09 15:35:49 [INFO] Submitting LogAction transaction for Log ID: log_d11aa244-7bc8-40eb-8445-af2c77cc8d85_1752064549197
+2025-07-09 16:11:25 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-09 16:17:55 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-09 16:17:55 [INFO] Submitting RegisterAgent transaction for Agent ID: 9bea8862-fa70-45bb-90c2-aa56f69c49dc
+2025-07-09 16:18:40 [DEBUG] Received POST /api/execute request
+2025-07-09 16:18:40 [INFO] Passport for 9bea8862-fa70-45bb-90c2-aa56f69c49dc is valid.
+2025-07-09 16:18:40 [INFO] Intent validated for Agent ID: 9bea8862-fa70-45bb-90c2-aa56f69c49dc
+2025-07-09 16:18:40 [INFO] Submitting LogAction transaction for Log ID: log_9bea8862-fa70-45bb-90c2-aa56f69c49dc_1752067120440
+2025-07-09 16:18:42 [INFO] Chaincode returned result: 
+2025-07-09 16:19:28 [DEBUG] Received POST /api/execute request
+2025-07-09 16:19:29 [INFO] Passport for 9bea8862-fa70-45bb-90c2-aa56f69c49dc is valid.
+2025-07-09 16:19:29 [INFO] Intent validated for Agent ID: 9bea8862-fa70-45bb-90c2-aa56f69c49dc
+2025-07-09 16:19:29 [INFO] Submitting LogAction transaction for Log ID: log_9bea8862-fa70-45bb-90c2-aa56f69c49dc_1752067169058
+2025-07-09 16:19:31 [INFO] Chaincode returned result: 
+2025-07-09 17:11:05 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-09 17:11:55 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-09 17:11:55 [INFO] Submitting RegisterAgent transaction for Agent ID: 2dda73fb-9b72-4a38-9857-03e6478bfffe
+2025-07-09 17:14:09 [DEBUG] Received POST /api/execute request
+2025-07-09 17:14:09 [INFO] Passport for 2dda73fb-9b72-4a38-9857-03e6478bfffe is valid.
+2025-07-09 17:14:09 [INFO] Intent validated for Agent ID: 2dda73fb-9b72-4a38-9857-03e6478bfffe
+2025-07-09 17:14:09 [INFO] Submitting LogAction transaction for Log ID: log_2dda73fb-9b72-4a38-9857-03e6478bfffe_1752070449809
+2025-07-09 17:14:11 [INFO] Chaincode returned result: 
+2025-07-09 17:37:04 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-09 17:37:27 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-09 17:37:27 [INFO] Submitting RegisterAgent transaction for Agent ID: c21ba59e-2fef-4522-a3c9-9f10d44233a8
+2025-07-09 17:38:12 [DEBUG] Received POST /api/execute request
+2025-07-09 17:38:12 [INFO] Passport for c21ba59e-2fef-4522-a3c9-9f10d44233a8 is valid.
+2025-07-09 17:38:12 [INFO] Intent validated for Agent ID: c21ba59e-2fef-4522-a3c9-9f10d44233a8
+2025-07-09 17:38:12 [INFO] Submitting LogAction transaction for Log ID: log_c21ba59e-2fef-4522-a3c9-9f10d44233a8_1752071892720
+2025-07-09 17:38:14 [INFO] Chaincode returned result: 
+2025-07-09 17:47:52 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-09 17:48:08 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-09 17:48:08 [ERROR] Error during agent registration DiscoveryService: zkpchannel error: access denied
+2025-07-09 19:04:30 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-09 19:05:17 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-09 19:05:17 [ERROR] Error during agent registration DiscoveryService: zkpchannel error: access denied

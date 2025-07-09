@@ -1,0 +1,11 @@
+{
+  "agentId": "2dda73fb-9b72-4a38-9857-03e6478bfffe",
+  "role": "ETL Agent",
+  "purpose": "Nightly data summarization",
+  "missionScope": "etl-summaries",
+  "issuedAt": "2025-07-09T14:11:55.544Z",
+  "signature": "1c6b3185cc4e05ef0ce0ab3ef997a891979c47ba28e0395b22890bcad18e8e50",
+  "status": "Active",
+  "actionCount": 0,
+  "lastActionAt": ""
+}
