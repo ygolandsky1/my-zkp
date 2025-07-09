@@ -412,3 +412,94 @@
 2025-07-09 06:30:31 [DEBUG] Fetching official passport for agent: 2a8358d6-8118-4b40-888c-6219bc5acb00
 2025-07-09 06:30:31 [INFO] Passport for 2a8358d6-8118-4b40-888c-6219bc5acb00 is valid.
 2025-07-09 06:30:31 [WARN] Execution denied for 2a8358d6-8118-4b40-888c-6219bc5acb00: Role 'DataProcessor' cannot perform action 'DELETE'.
+2025-07-09 07:06:41 [DEBUG] Received GET /api/agents request
+2025-07-09 07:06:41 [DEBUG] Received GET /api/agents request
+2025-07-09 07:06:48 [DEBUG] Received GET /api/agents request
+2025-07-09 07:06:48 [DEBUG] Received GET /api/agents request
+2025-07-09 07:07:35 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-09 07:07:35 [INFO] Submitting RegisterAgent transaction for Agent ID: 7d606d4b-f4ee-40d2-8a78-859e61b031e9
+2025-07-09 07:07:37 [DEBUG] Received GET /api/agents request
+2025-07-09 07:07:55 [DEBUG] Received POST /api/execute request
+2025-07-09 07:07:55 [DEBUG] Fetching official passport for agent: 7d606d4b-f4ee-40d2-8a78-859e61b031e9
+2025-07-09 07:07:55 [INFO] Passport for 7d606d4b-f4ee-40d2-8a78-859e61b031e9 is valid.
+2025-07-09 07:07:55 [INFO] Intent validated for Agent ID: 7d606d4b-f4ee-40d2-8a78-859e61b031e9
+2025-07-09 07:07:55 [INFO] Submitting LogAction transaction for Log ID: log_7d606d4b-f4ee-40d2-8a78-859e61b031e9_1752034075722
+2025-07-09 07:07:57 [DEBUG] Received GET /api/agents request
+2025-07-09 07:08:05 [DEBUG] Received POST /api/execute request
+2025-07-09 07:08:05 [DEBUG] Fetching official passport for agent: 7d606d4b-f4ee-40d2-8a78-859e61b031e9
+2025-07-09 07:08:05 [INFO] Passport for 7d606d4b-f4ee-40d2-8a78-859e61b031e9 is valid.
+2025-07-09 07:08:05 [INFO] Intent validated for Agent ID: 7d606d4b-f4ee-40d2-8a78-859e61b031e9
+2025-07-09 07:08:05 [INFO] Submitting LogAction transaction for Log ID: log_7d606d4b-f4ee-40d2-8a78-859e61b031e9_1752034085083
+2025-07-09 07:08:07 [DEBUG] Received GET /api/agents request
+2025-07-09 07:08:12 [DEBUG] Received POST /api/execute request
+2025-07-09 07:08:12 [DEBUG] Fetching official passport for agent: 7d606d4b-f4ee-40d2-8a78-859e61b031e9
+2025-07-09 07:08:12 [INFO] Passport for 7d606d4b-f4ee-40d2-8a78-859e61b031e9 is valid.
+2025-07-09 07:08:12 [WARN] Execution denied for 7d606d4b-f4ee-40d2-8a78-859e61b031e9: Role 'DataProcessor' cannot perform action 'DELETE'.
+2025-07-09 07:08:30 [DEBUG] Received POST /api/execute request
+2025-07-09 07:08:30 [DEBUG] Fetching official passport for agent: agent-007
+2025-07-09 07:08:30 [INFO] Passport for agent-007 is valid.
+2025-07-09 07:08:30 [WARN] Execution denied for agent-007: Role 'ReadOnly' cannot perform action 'DELETE'.
+2025-07-09 07:08:33 [DEBUG] Received POST /api/execute request
+2025-07-09 07:08:33 [DEBUG] Fetching official passport for agent: agent-007
+2025-07-09 07:08:33 [INFO] Passport for agent-007 is valid.
+2025-07-09 07:08:33 [INFO] Intent validated for Agent ID: agent-007
+2025-07-09 07:08:33 [INFO] Submitting LogAction transaction for Log ID: log_agent-007_1752034113778
+2025-07-09 07:08:35 [DEBUG] Received GET /api/agents request
+2025-07-09 07:49:31 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-09 09:32:59 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-09 09:35:17 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-09 09:35:17 [INFO] Submitting RegisterAgent transaction for Agent ID: afdf972e-0137-4ae2-8387-7fa8e7af703e
+2025-07-09 09:51:05 [DEBUG] Received GET /api/agents request
+2025-07-09 09:51:05 [DEBUG] Received GET /api/agents request
+2025-07-09 09:52:07 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-09 09:52:07 [INFO] Submitting RegisterAgent transaction for Agent ID: dcf73ce8-610f-4b7c-bef2-716b0f353904
+2025-07-09 09:52:10 [DEBUG] Received GET /api/agents request
+2025-07-09 09:52:22 [DEBUG] Received POST /api/execute request
+2025-07-09 09:52:22 [DEBUG] Fetching official passport for agent: dcf73ce8-610f-4b7c-bef2-716b0f353904
+2025-07-09 09:52:22 [INFO] Passport for dcf73ce8-610f-4b7c-bef2-716b0f353904 is valid.
+2025-07-09 09:52:22 [INFO] Intent validated for Agent ID: dcf73ce8-610f-4b7c-bef2-716b0f353904
+2025-07-09 09:52:22 [INFO] Submitting LogAction transaction for Log ID: log_dcf73ce8-610f-4b7c-bef2-716b0f353904_1752043942814
+2025-07-09 09:52:22 [ERROR] Error during action execution No valid responses from any peers. Errors:
+    peer=peer0.org1.example.com:7051, status=500, message=failed to unmarshal action details JSON: json: cannot unmarshal string into Go struct field ActionLog.intent of type map[string]interface {}
+    peer=peer0.org2.example.com:9051, status=500, message=failed to unmarshal action details JSON: json: cannot unmarshal string into Go struct field ActionLog.intent of type map[string]interface {}
+2025-07-09 09:52:30 [DEBUG] Received POST /api/execute request
+2025-07-09 09:52:30 [DEBUG] Fetching official passport for agent: dcf73ce8-610f-4b7c-bef2-716b0f353904
+2025-07-09 09:52:30 [INFO] Passport for dcf73ce8-610f-4b7c-bef2-716b0f353904 is valid.
+2025-07-09 09:52:30 [INFO] Intent validated for Agent ID: dcf73ce8-610f-4b7c-bef2-716b0f353904
+2025-07-09 09:52:30 [INFO] Submitting LogAction transaction for Log ID: log_dcf73ce8-610f-4b7c-bef2-716b0f353904_1752043950230
+2025-07-09 09:52:30 [ERROR] Error during action execution No valid responses from any peers. Errors:
+    peer=peer0.org1.example.com:7051, status=500, message=failed to unmarshal action details JSON: json: cannot unmarshal string into Go struct field ActionLog.intent of type map[string]interface {}
+    peer=peer0.org2.example.com:9051, status=500, message=failed to unmarshal action details JSON: json: cannot unmarshal string into Go struct field ActionLog.intent of type map[string]interface {}
+2025-07-09 09:56:45 [DEBUG] Received POST /api/execute request
+2025-07-09 09:56:45 [DEBUG] Fetching official passport for agent: dcf73ce8-610f-4b7c-bef2-716b0f353904
+2025-07-09 09:56:45 [INFO] Passport for dcf73ce8-610f-4b7c-bef2-716b0f353904 is valid.
+2025-07-09 09:56:45 [WARN] Execution denied for dcf73ce8-610f-4b7c-bef2-716b0f353904: Role 'DataProcessor' cannot perform action 'DELETE'.
+2025-07-09 09:56:49 [DEBUG] Received POST /api/execute request
+2025-07-09 09:56:49 [DEBUG] Fetching official passport for agent: dcf73ce8-610f-4b7c-bef2-716b0f353904
+2025-07-09 09:56:49 [INFO] Passport for dcf73ce8-610f-4b7c-bef2-716b0f353904 is valid.
+2025-07-09 09:56:49 [INFO] Intent validated for Agent ID: dcf73ce8-610f-4b7c-bef2-716b0f353904
+2025-07-09 09:56:49 [INFO] Submitting LogAction transaction for Log ID: log_dcf73ce8-610f-4b7c-bef2-716b0f353904_1752044209542
+2025-07-09 09:56:49 [ERROR] Error during action execution No valid responses from any peers. Errors:
+    peer=peer0.org1.example.com:7051, status=500, message=failed to unmarshal action details JSON: json: cannot unmarshal string into Go struct field ActionLog.intent of type map[string]interface {}
+    peer=peer0.org2.example.com:9051, status=500, message=failed to unmarshal action details JSON: json: cannot unmarshal string into Go struct field ActionLog.intent of type map[string]interface {}
+2025-07-09 10:00:24 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-09 10:00:35 [DEBUG] Received GET /api/agents request
+2025-07-09 10:00:35 [DEBUG] Received GET /api/agents request
+2025-07-09 10:00:45 [DEBUG] Received POST /api/execute request
+2025-07-09 10:00:46 [INFO] Passport for afdf972e-0137-4ae2-8387-7fa8e7af703e is valid.
+2025-07-09 10:00:46 [INFO] Intent validated for Agent ID: afdf972e-0137-4ae2-8387-7fa8e7af703e
+2025-07-09 10:00:46 [INFO] Submitting LogAction transaction for Log ID: log_afdf972e-0137-4ae2-8387-7fa8e7af703e_1752044446051
+2025-07-09 10:00:48 [DEBUG] Received GET /api/agents request
+2025-07-09 10:00:57 [DEBUG] Received POST /api/execute request
+2025-07-09 10:00:57 [INFO] Passport for dcf73ce8-610f-4b7c-bef2-716b0f353904 is valid.
+2025-07-09 10:00:57 [INFO] Intent validated for Agent ID: dcf73ce8-610f-4b7c-bef2-716b0f353904
+2025-07-09 10:00:57 [INFO] Submitting LogAction transaction for Log ID: log_dcf73ce8-610f-4b7c-bef2-716b0f353904_1752044457562
+2025-07-09 10:00:59 [DEBUG] Received GET /api/agents request
+2025-07-09 10:01:06 [DEBUG] Received POST /api/execute request
+2025-07-09 10:01:06 [INFO] Passport for dcf73ce8-610f-4b7c-bef2-716b0f353904 is valid.
+2025-07-09 10:01:06 [INFO] Intent validated for Agent ID: dcf73ce8-610f-4b7c-bef2-716b0f353904
+2025-07-09 10:01:06 [INFO] Submitting LogAction transaction for Log ID: log_dcf73ce8-610f-4b7c-bef2-716b0f353904_1752044466215
+2025-07-09 10:01:08 [DEBUG] Received GET /api/agents request
+2025-07-09 10:01:13 [DEBUG] Received POST /api/execute request
+2025-07-09 10:01:13 [INFO] Passport for dcf73ce8-610f-4b7c-bef2-716b0f353904 is valid.
+2025-07-09 10:01:13 [WARN] Execution denied for dcf73ce8-610f-4b7c-bef2-716b0f353904: Role 'DataProcessor' cannot perform action 'DELETE'.

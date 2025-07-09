@@ -1,13 +1,5 @@
 body {
-  font-family: sans-serif;
-  padding: 2rem;
-  background: #f0f2f5;
+  font-family: 'Inter', sans-serif;
+  background-color: #f3f4f6; /* A light grey background */
 }
-button {
-  padding: 1rem;
-  font-size: 1.2rem;
-}
-#result {
-  margin-top: 1rem;
-  font-weight: bold;
-}
+

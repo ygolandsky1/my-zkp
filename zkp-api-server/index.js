@@ -5,7 +5,7 @@ const { Gateway, Wallets } = require("fabric-network");
 const fs = require("fs");
 const path = require("path");
 const winston = require("winston");
-const { v4: uuidv4 } = require('uuid'); // To generate unique IDs
+const { v4: uuidv4 } = require('uuid');
 const { generateSignature, verifyPassport } = require('./utils/verifyPassport');
 
 const app = express();
@@ -45,7 +45,7 @@ const POLICY = {
 async function getGateway() {
     const ccp = JSON.parse(fs.readFileSync(ccpPath, "utf8"));
     const wallet = await Wallets.newFileSystemWallet(walletPath);
-    const identity = await wallet.get("appUser"); // Use the appUser identity
+    const identity = await wallet.get("appUser");
 
     if (!identity) {
         throw new Error("Application user 'appUser' not found in wallet. Please run enrollAdmin.js and registerUser.js first.");
@@ -62,13 +62,12 @@ async function getGateway() {
 
 // --- API Endpoints ---
 
-// [NEW] Endpoint to register a new agent
 router.post("/admin/register-agent", async (req, res) => {
-    const { role, purpose } = req.body;
-    logger.debug('Received POST /api/admin/register-agent request', { role, purpose });
+    const { role, purpose, missionScope } = req.body;
+    logger.debug('Received POST /api/admin/register-agent request', { role, purpose, missionScope });
 
-    if (!role || !purpose) {
-        return res.status(400).json({ error: "Missing required fields: role and purpose are required." });
+    if (!role || !purpose || !missionScope) {
+        return res.status(400).json({ error: "Missing required fields: role, purpose, and missionScope are required." });
     }
 
     const agentId = uuidv4();
@@ -78,6 +77,7 @@ router.post("/admin/register-agent", async (req, res) => {
         agentId,
         role,
         purpose,
+        missionScope,
         issuedAt,
         signature: generateSignature(agentId, issuedAt),
         status: "Active",
@@ -103,7 +103,6 @@ router.post("/admin/register-agent", async (req, res) => {
     }
 });
 
-// [UPDATED] Endpoint with more robust validation logic
 router.post("/execute", async (req, res) => {
     const { passport: submittedPassport, intent } = req.body;
     logger.debug('Received POST /api/execute request', { agentId: submittedPassport?.agentId, intent });
@@ -118,19 +117,15 @@ router.post("/execute", async (req, res) => {
         const network = await gateway.getNetwork(CHANNEL_NAME);
         const contract = network.getContract(CHAINCODE_NAME);
 
-        // 1. Fetch the official passport from the ledger
-        logger.debug(`Fetching official passport for agent: ${submittedPassport.agentId}`);
         const officialPassportBytes = await contract.evaluateTransaction('GetPassport', submittedPassport.agentId);
         const officialPassport = JSON.parse(officialPassportBytes.toString());
 
-        // 2. Identity Check: Validate the submitted passport against the on-chain version
         if (officialPassport.signature !== submittedPassport.signature) {
              logger.warn(`Execution denied for ${submittedPassport.agentId}: Submitted passport does not match on-chain record.`);
              return res.status(403).json({ error: "Access Denied: Invalid passport." });
         }
         logger.info(`Passport for ${submittedPassport.agentId} is valid.`);
 
-        // 3. Governance Check: Validate intent against the policy
         const allowedActions = POLICY[officialPassport.role] || [];
         if (!allowedActions.includes(intent?.action)) {
             logger.warn(`Execution denied for ${officialPassport.agentId}: Role '${officialPassport.role}' cannot perform action '${intent?.action}'.`);
@@ -138,13 +133,14 @@ router.post("/execute", async (req, res) => {
         }
         logger.info(`Intent validated for Agent ID: ${officialPassport.agentId}`);
 
-        // 4. Log the validated action to the ledger
         const logId = `log_${officialPassport.agentId}_${Date.now()}`;
+        
+        // *** THIS IS THE FIX ***
+        // We now pass the entire intent object to the chaincode, not just a part of it.
         const actionDetails = {
             logId,
             agentId: officialPassport.agentId,
-            intent: intent.action,
-            target: intent.target,
+            intent: intent, // Pass the whole intent object { action: "...", target: "..." }
             result: "Success (Allowed)",
             timestamp: new Date().toISOString(),
             passportValid: true,
@@ -156,14 +152,13 @@ router.post("/execute", async (req, res) => {
 
         res.status(200).json({ message: "✅ Action executed and logged successfully", txId: tx.getTransactionId() });
     } catch (err) {
-        logger.error('Error during action execution', { message: err.message });
+        logger.error('Error during action execution', { message: err.message, stack: err.stack });
         res.status(500).json({ error: "Blockchain execution failed", details: err.message });
     } finally {
         gateway?.disconnect();
     }
 });
 
-// [NEW] Endpoint to get all registered agents
 router.get("/agents", async (req, res) => {
     logger.debug('Received GET /api/agents request');
     let gateway;
