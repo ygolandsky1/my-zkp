@@ -5,7 +5,7 @@ const { Gateway, Wallets } = require("fabric-network");
 const fs = require("fs");
 const path = require("path");
 const winston = require("winston");
-const { v4: uuidv4 } = require('uuid');
+const { v4: uuidv4 } = require('uuid'); // To generate unique IDs
 const { generateSignature, verifyPassport } = require('./utils/verifyPassport');
 
 const app = express();

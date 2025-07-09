@@ -1,32 +1,11 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState } from 'react';
 
-const AdminPanel = () => {
-    const [agents, setAgents] = useState([]);
+const AdminPanel = ({ agents, fetchAgents }) => { // Accept props from App.jsx
     const [role, setRole] = useState('ReadOnly');
     const [purpose, setPurpose] = useState('');
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState('');
     const [message, setMessage] = useState('');
-
-    const fetchAgents = useCallback(async () => {
-        try {
-            setIsLoading(true);
-            const response = await fetch('http://localhost:3002/api/agents');
-            if (!response.ok) {
-                throw new Error('Failed to fetch agents');
-            }
-            const data = await response.json();
-            setAgents(data || []);
-        } catch (err) {
-            setError(err.message);
-        } finally {
-            setIsLoading(false);
-        }
-    }, []);
-
-    useEffect(() => {
-        fetchAgents();
-    }, [fetchAgents]);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -49,7 +28,7 @@ const AdminPanel = () => {
 
             setMessage(`✅ Agent registered successfully! New Agent ID: ${data.passport.agentId}`);
             setPurpose(''); // Clear form
-            fetchAgents(); // Refresh the list
+            fetchAgents(); // Call the refresh function passed from App.jsx
         } catch (err) {
             setError(err.message);
         } finally {

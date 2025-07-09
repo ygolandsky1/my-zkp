@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 
-const ActionSimulator = () => {
-    const [agents, setAgents] = useState([]);
+const ActionSimulator = ({ agents, fetchAgents }) => { // Accept agents and a refresh function as props
     const [selectedAgentId, setSelectedAgentId] = useState('');
     const [intentAction, setIntentAction] = useState('READ');
     const [intentTarget, setIntentTarget] = useState('BillingDB');
@@ -9,23 +8,13 @@ const ActionSimulator = () => {
     const [error, setError] = useState('');
     const [message, setMessage] = useState('');
 
-    const fetchAgents = useCallback(async () => {
-        try {
-            const response = await fetch('http://localhost:3002/api/agents');
-            if (!response.ok) throw new Error('Failed to fetch agents');
-            const data = await response.json();
-            setAgents(data || []);
-            if (data && data.length > 0) {
-                setSelectedAgentId(data[0].agentId); // Default to the first agent
-            }
-        } catch (err) {
-            setError(err.message);
-        }
-    }, []);
-
+    // Set default agent when the list loads
     useEffect(() => {
-        fetchAgents();
-    }, [fetchAgents]);
+        if (agents.length > 0 && !selectedAgentId) {
+            setSelectedAgentId(agents[0].agentId);
+        }
+    }, [agents, selectedAgentId]);
+
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -67,8 +56,10 @@ const ActionSimulator = () => {
             }
 
             setMessage(`✅ Action logged successfully! Transaction ID: ${data.txId}`);
-            // Refresh agent list to show updated action count
-            fetchAgents(); 
+            // Refresh agent list in the parent to show updated action count
+            if (fetchAgents) {
+                fetchAgents(); 
+            }
         } catch (err) {
             setError(`❌ ${err.message}`);
         } finally {
@@ -119,4 +110,3 @@ const ActionSimulator = () => {
 };
 
 export default ActionSimulator;
-

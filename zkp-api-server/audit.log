@@ -345,3 +345,70 @@
 2025-07-08 12:03:07 [INFO] Intent validated for Agent ID: 3f444d60-b452-425f-bcfd-3cf8272ed100
 2025-07-08 12:03:07 [INFO] Submitting LogAction transaction for Log ID: log_3f444d60-b452-425f-bcfd-3cf8272ed100_1751965387578
 2025-07-08 12:03:09 [DEBUG] Received GET /api/agents request
+2025-07-08 14:52:54 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-08 14:58:07 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-08 14:58:07 [INFO] Submitting RegisterAgent transaction for Agent ID: 7fdfe953-3421-448b-ad30-b677716929fe
+2025-07-08 15:03:50 [DEBUG] Received POST /api/execute request
+2025-07-08 15:03:50 [DEBUG] Fetching official passport for agent: 7fdfe953-3421-448b-ad30-b677716929fe
+2025-07-08 15:03:50 [INFO] Passport for 7fdfe953-3421-448b-ad30-b677716929fe is valid.
+2025-07-08 15:03:50 [INFO] Intent validated for Agent ID: 7fdfe953-3421-448b-ad30-b677716929fe
+2025-07-08 15:03:50 [INFO] Submitting LogAction transaction for Log ID: log_7fdfe953-3421-448b-ad30-b677716929fe_1751976230173
+2025-07-08 15:04:44 [DEBUG] Received POST /api/execute request
+2025-07-08 15:04:44 [DEBUG] Fetching official passport for agent: 7fdfe953-3421-448b-ad30-b677716929fe
+2025-07-08 15:04:44 [INFO] Passport for 7fdfe953-3421-448b-ad30-b677716929fe is valid.
+2025-07-08 15:04:44 [WARN] Execution denied for 7fdfe953-3421-448b-ad30-b677716929fe: Role 'ReadOnly' cannot perform action 'WRITE'.
+2025-07-08 15:05:49 [DEBUG] Received POST /api/execute request
+2025-07-08 15:05:49 [DEBUG] Fetching official passport for agent: 7fdfe953-3421-448b-ad30-b677716929fe
+2025-07-08 15:05:49 [WARN] Execution denied for 7fdfe953-3421-448b-ad30-b677716929fe: Submitted passport does not match on-chain record.
+2025-07-08 15:13:14 [DEBUG] Received GET /api/agents request
+2025-07-08 15:13:14 [DEBUG] Received GET /api/agents request
+2025-07-08 15:13:21 [DEBUG] Received GET /api/agents request
+2025-07-08 15:13:21 [DEBUG] Received GET /api/agents request
+2025-07-08 15:14:16 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-08 15:14:16 [INFO] Submitting RegisterAgent transaction for Agent ID: aef30105-159f-414f-98fb-d2e547da1545
+2025-07-08 15:14:18 [DEBUG] Received GET /api/agents request
+2025-07-08 15:17:48 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-08 15:17:48 [INFO] Submitting RegisterAgent transaction for Agent ID: 82ba9bc3-a22b-4629-83df-6e21b314e7e9
+2025-07-08 15:17:50 [DEBUG] Received GET /api/agents request
+2025-07-08 15:22:56 [DEBUG] Received GET /api/agents request
+2025-07-08 15:22:56 [DEBUG] Received GET /api/agents request
+2025-07-08 15:23:02 [DEBUG] Received GET /api/agents request
+2025-07-08 15:23:02 [DEBUG] Received GET /api/agents request
+2025-07-08 15:23:43 [DEBUG] Received POST /api/execute request
+2025-07-08 15:23:43 [DEBUG] Fetching official passport for agent: agent-007
+2025-07-08 15:23:43 [INFO] Passport for agent-007 is valid.
+2025-07-08 15:23:43 [WARN] Execution denied for agent-007: Role 'ReadOnly' cannot perform action 'WRITE'.
+2025-07-08 15:23:47 [DEBUG] Received POST /api/execute request
+2025-07-08 15:23:47 [DEBUG] Fetching official passport for agent: agent-007
+2025-07-08 15:23:47 [INFO] Passport for agent-007 is valid.
+2025-07-08 15:23:47 [INFO] Intent validated for Agent ID: agent-007
+2025-07-08 15:23:47 [INFO] Submitting LogAction transaction for Log ID: log_agent-007_1751977427682
+2025-07-08 15:23:49 [DEBUG] Received GET /api/agents request
+2025-07-08 15:24:09 [DEBUG] Received POST /api/execute request
+2025-07-08 15:24:09 [DEBUG] Fetching official passport for agent: 82ba9bc3-a22b-4629-83df-6e21b314e7e9
+2025-07-08 15:24:09 [INFO] Passport for 82ba9bc3-a22b-4629-83df-6e21b314e7e9 is valid.
+2025-07-08 15:24:09 [WARN] Execution denied for 82ba9bc3-a22b-4629-83df-6e21b314e7e9: Role 'DataProcessor' cannot perform action 'DELETE'.
+2025-07-08 15:24:14 [DEBUG] Received POST /api/execute request
+2025-07-08 15:24:14 [DEBUG] Fetching official passport for agent: 82ba9bc3-a22b-4629-83df-6e21b314e7e9
+2025-07-08 15:24:14 [INFO] Passport for 82ba9bc3-a22b-4629-83df-6e21b314e7e9 is valid.
+2025-07-08 15:24:14 [INFO] Intent validated for Agent ID: 82ba9bc3-a22b-4629-83df-6e21b314e7e9
+2025-07-08 15:24:14 [INFO] Submitting LogAction transaction for Log ID: log_82ba9bc3-a22b-4629-83df-6e21b314e7e9_1751977454220
+2025-07-08 15:24:16 [DEBUG] Received GET /api/agents request
+2025-07-09 06:30:09 [DEBUG] Received GET /api/agents request
+2025-07-09 06:30:09 [DEBUG] Received GET /api/agents request
+2025-07-09 06:30:18 [DEBUG] Received POST /api/execute request
+2025-07-09 06:30:18 [DEBUG] Fetching official passport for agent: 2a8358d6-8118-4b40-888c-6219bc5acb00
+2025-07-09 06:30:18 [INFO] Passport for 2a8358d6-8118-4b40-888c-6219bc5acb00 is valid.
+2025-07-09 06:30:18 [INFO] Intent validated for Agent ID: 2a8358d6-8118-4b40-888c-6219bc5acb00
+2025-07-09 06:30:18 [INFO] Submitting LogAction transaction for Log ID: log_2a8358d6-8118-4b40-888c-6219bc5acb00_1752031818531
+2025-07-09 06:30:20 [DEBUG] Received GET /api/agents request
+2025-07-09 06:30:25 [DEBUG] Received POST /api/execute request
+2025-07-09 06:30:25 [DEBUG] Fetching official passport for agent: 2a8358d6-8118-4b40-888c-6219bc5acb00
+2025-07-09 06:30:25 [INFO] Passport for 2a8358d6-8118-4b40-888c-6219bc5acb00 is valid.
+2025-07-09 06:30:25 [INFO] Intent validated for Agent ID: 2a8358d6-8118-4b40-888c-6219bc5acb00
+2025-07-09 06:30:25 [INFO] Submitting LogAction transaction for Log ID: log_2a8358d6-8118-4b40-888c-6219bc5acb00_1752031825356
+2025-07-09 06:30:27 [DEBUG] Received GET /api/agents request
+2025-07-09 06:30:30 [DEBUG] Received POST /api/execute request
+2025-07-09 06:30:31 [DEBUG] Fetching official passport for agent: 2a8358d6-8118-4b40-888c-6219bc5acb00
+2025-07-09 06:30:31 [INFO] Passport for 2a8358d6-8118-4b40-888c-6219bc5acb00 is valid.
+2025-07-09 06:30:31 [WARN] Execution denied for 2a8358d6-8118-4b40-888c-6219bc5acb00: Role 'DataProcessor' cannot perform action 'DELETE'.
