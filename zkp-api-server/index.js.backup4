@@ -200,16 +200,8 @@ router.get("/admin/agents/:agentId", async (req, res) => {
         const network = await gateway.getNetwork(CHANNEL_NAME);
         const contract = network.getContract(CHAINCODE_NAME);
         
-        // Get all agents and filter for the specific one
-        const allAgentsBytes = await contract.evaluateTransaction("GetAllAgents");
-        const allAgents = JSON.parse(allAgentsBytes.toString());
-        const agent = allAgents.find(a => a.agentId === req.params.agentId);
-        
-        if (!agent) {
-            return res.status(404).json({ error: "Agent not found" });
-        }
-        
-        const resultJson = agent;
+        const resultBytes = await contract.evaluateTransaction("GetAgent", req.params.agentId);
+        const resultJson = JSON.parse(resultBytes.toString());
         
         res.status(200).json(resultJson);
     } catch (err) {
@@ -257,9 +249,8 @@ router.post("/log-action", async (req, res) => {
         
         const actionId = uuidv4();
         logger.info(`Logging action for Agent ID: ${agentId}, Action ID: ${actionId}`);
-        console.log("DEBUG - agentId:", agentId, "action:", action, "details:", details);
         
-        await contract.submitTransaction("LogAction", actionId, JSON.stringify({agentId: agentId, intent: {target: agentId, action: action, details: details || ""}, timestamp: new Date().toISOString(), result: "", passportValid: true}));
+        await contract.submitTransaction("LogAction", agentId, actionId, action, details || "", JSON.stringify(context || {}));
         
         res.status(200).json({ 
             message: "✅ Action logged successfully", 
