@@ -808,3 +808,201 @@
 2025-07-12 09:21:41 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: e7300561-985e-42dc-b2b5-08f0921c857a
 2025-07-12 09:21:45 [DEBUG] Received POST /api/log-action request
 2025-07-12 09:21:45 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: f13c7c39-6eff-4acd-bcd3-6d719381195a
+2025-07-12 15:39:27 [DEBUG] Received GET /api/agents request
+2025-07-12 15:39:27 [DEBUG] Received GET /api/agents request
+2025-07-12 15:40:32 [DEBUG] Received GET /api/agents request
+2025-07-12 15:50:34 [DEBUG] Received GET /api/agents request
+2025-07-12 15:50:34 [DEBUG] Received GET /api/agents request
+2025-07-12 15:50:35 [DEBUG] Received GET /api/agents request
+2025-07-12 15:50:35 [DEBUG] Received GET /api/agents request
+2025-07-12 15:51:05 [DEBUG] Received GET /api/agents request
+2025-07-12 15:51:35 [DEBUG] Received GET /api/agents request
+2025-07-12 15:52:05 [DEBUG] Received GET /api/agents request
+2025-07-12 15:52:35 [DEBUG] Received GET /api/agents request
+2025-07-12 15:53:05 [DEBUG] Received GET /api/agents request
+2025-07-12 15:53:35 [DEBUG] Received GET /api/agents request
+2025-07-12 15:53:41 [DEBUG] Received GET /api/agents request
+2025-07-12 15:53:41 [DEBUG] Received GET /api/agents request
+2025-07-12 15:54:06 [DEBUG] Received GET /api/agents request
+2025-07-12 15:54:36 [DEBUG] Received GET /api/agents request
+2025-07-12 15:54:46 [DEBUG] Received GET /api/admin/agents/financial-analyzer-v1.2 request
+2025-07-12 15:54:46 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:54:46 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: c3fe4c8a-9fd6-4afb-97c8-d6a43109f611
+2025-07-12 15:54:50 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:54:50 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: 018e25af-71c0-4c6b-a609-5b7d5845d326
+2025-07-12 15:54:54 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:54:54 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: 746fa8d1-021a-4083-a016-2b9a4ab839c6
+2025-07-12 15:54:58 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:54:58 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: c7527d02-5068-4e6a-916e-a0b40bfeddae
+2025-07-12 15:55:03 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:55:03 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: 01a56ede-61ad-44eb-8e26-8bee10de4660
+2025-07-12 15:55:06 [DEBUG] Received GET /api/agents request
+2025-07-12 15:55:07 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:55:07 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: 661a3512-d53a-4afb-a553-6744d67acc75
+2025-07-12 15:55:10 [DEBUG] Received GET /api/admin/agents/simple-demo-agent request
+2025-07-12 15:55:10 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:55:10 [INFO] Logging action for Agent ID: simple-demo-agent, Action ID: 31649143-1249-4c52-b4ff-cd55a8dd92b8
+2025-07-12 15:55:13 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:55:13 [INFO] Logging action for Agent ID: simple-demo-agent, Action ID: 51c434d0-03c8-4938-a6d9-4e2a588794e7
+2025-07-12 15:55:15 [DEBUG] Received GET /api/admin/agents/financial-analyzer-v1.2 request
+2025-07-12 15:55:15 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:55:15 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: aea2ac39-7625-447b-8a77-03e2deb6da44
+2025-07-12 15:55:19 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:55:19 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: c33e7094-31ef-4ebe-bebf-374cf9ef9fb7
+2025-07-12 15:55:23 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:55:23 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: 77b55621-e1c9-4064-a551-bed0e70310a3
+2025-07-12 15:55:27 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:55:27 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: 9a33189a-14f2-41a0-be51-558f5f281787
+2025-07-12 15:55:31 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:55:31 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: e3cd26dc-be2b-4269-8f72-6baf3466f98f
+2025-07-12 15:55:36 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:55:36 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: eb3df951-424e-4cd4-9962-80ab33132bc7
+2025-07-12 15:55:36 [DEBUG] Received GET /api/agents request
+2025-07-12 15:56:06 [DEBUG] Received GET /api/agents request
+2025-07-12 15:56:36 [DEBUG] Received GET /api/agents request
+2025-07-12 15:57:06 [DEBUG] Received GET /api/agents request
+2025-07-12 15:57:37 [DEBUG] Received GET /api/agents request
+2025-07-12 15:58:07 [DEBUG] Received GET /api/agents request
+2025-07-12 15:58:37 [DEBUG] Received GET /api/admin/agents/financial-analyzer-v2.0 request
+2025-07-12 15:58:37 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-12 15:58:37 [INFO] Submitting RegisterAgent transaction for Agent ID: financial-analyzer-v2.0
+2025-07-12 15:58:37 [DEBUG] Received GET /api/agents request
+2025-07-12 15:58:39 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:58:39 [INFO] Logging action for Agent ID: financial-analyzer-v2.0, Action ID: b2bc318a-de9b-451b-9129-dc7c61fd3aff
+2025-07-12 15:58:43 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:58:43 [INFO] Logging action for Agent ID: financial-analyzer-v2.0, Action ID: d4b19c35-9687-4b89-b8dd-fd1b37bd2cc1
+2025-07-12 15:58:47 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:58:47 [INFO] Logging action for Agent ID: financial-analyzer-v2.0, Action ID: 0a69a626-741a-44ff-b39d-7b9ad82cffc4
+2025-07-12 15:58:51 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:58:51 [INFO] Logging action for Agent ID: financial-analyzer-v2.0, Action ID: 61d9f5b1-8056-42c5-996b-3896fe7c5177
+2025-07-12 15:58:55 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:58:55 [INFO] Logging action for Agent ID: financial-analyzer-v2.0, Action ID: 3d5d9fe4-7310-4b4b-b941-15a3da841334
+2025-07-12 15:58:59 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:58:59 [INFO] Logging action for Agent ID: financial-analyzer-v2.0, Action ID: 1c9d3760-26ff-45f6-9ce9-bb24cdd9b665
+2025-07-12 15:59:03 [DEBUG] Received GET /api/admin/agents/research-analyst-v1.1 request
+2025-07-12 15:59:03 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-12 15:59:03 [INFO] Submitting RegisterAgent transaction for Agent ID: research-analyst-v1.1
+2025-07-12 15:59:05 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:59:05 [INFO] Logging action for Agent ID: research-analyst-v1.1, Action ID: e2150e11-e071-4e6f-bf9f-0b3362f070cb
+2025-07-12 15:59:07 [DEBUG] Received GET /api/agents request
+2025-07-12 15:59:09 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:59:09 [INFO] Logging action for Agent ID: research-analyst-v1.1, Action ID: 1c676ca3-7829-43ea-aa57-ce10c7041baf
+2025-07-12 15:59:13 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:59:13 [INFO] Logging action for Agent ID: research-analyst-v1.1, Action ID: a9621efd-2c03-4818-9632-17614ff2b325
+2025-07-12 15:59:16 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:59:16 [INFO] Logging action for Agent ID: research-analyst-v1.1, Action ID: 86a346e5-c411-48b8-8c44-cae3ab214692
+2025-07-12 15:59:21 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:59:21 [INFO] Logging action for Agent ID: research-analyst-v1.1, Action ID: 54def3bf-75b5-4102-971a-b45730429e5f
+2025-07-12 15:59:24 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:59:24 [INFO] Logging action for Agent ID: research-analyst-v1.1, Action ID: 50a95cd9-118c-4103-b730-6e777008300b
+2025-07-12 15:59:28 [DEBUG] Received GET /api/admin/agents/customer-support-v3.2 request
+2025-07-12 15:59:28 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-12 15:59:28 [INFO] Submitting RegisterAgent transaction for Agent ID: customer-support-v3.2
+2025-07-12 15:59:31 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:59:31 [INFO] Logging action for Agent ID: customer-support-v3.2, Action ID: 64890fec-bf68-4c16-aa9c-ab9530ae15b7
+2025-07-12 15:59:34 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:59:34 [INFO] Logging action for Agent ID: customer-support-v3.2, Action ID: 2d765194-e0b5-4ec2-b56e-d0b970a4ffb6
+2025-07-12 15:59:37 [DEBUG] Received GET /api/agents request
+2025-07-12 15:59:38 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:59:38 [INFO] Logging action for Agent ID: customer-support-v3.2, Action ID: 185de0e8-f5f6-4657-90f8-322594c7b503
+2025-07-12 15:59:41 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:59:41 [INFO] Logging action for Agent ID: customer-support-v3.2, Action ID: 685e2704-9534-4c63-833f-fbcc9f904ed9
+2025-07-12 15:59:45 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:59:45 [INFO] Logging action for Agent ID: customer-support-v3.2, Action ID: 1e5c105e-5779-473e-b373-1d0b3adf0165
+2025-07-12 15:59:48 [DEBUG] Received POST /api/log-action request
+2025-07-12 15:59:48 [INFO] Logging action for Agent ID: customer-support-v3.2, Action ID: e52fdc82-11b5-4bec-9b8f-9491e4e8082b
+2025-07-12 16:00:07 [DEBUG] Received GET /api/agents request
+2025-07-12 16:00:37 [DEBUG] Received GET /api/agents request
+2025-07-12 16:01:07 [DEBUG] Received GET /api/agents request
+2025-07-12 16:01:37 [DEBUG] Received GET /api/agents request
+2025-07-12 16:02:07 [DEBUG] Received GET /api/agents request
+2025-07-12 16:02:37 [DEBUG] Received GET /api/agents request
+2025-07-12 16:03:07 [DEBUG] Received GET /api/agents request
+2025-07-12 16:03:37 [DEBUG] Received GET /api/agents request
+2025-07-12 16:04:07 [DEBUG] Received GET /api/agents request
+2025-07-12 16:04:37 [DEBUG] Received GET /api/agents request
+2025-07-12 16:05:07 [DEBUG] Received GET /api/agents request
+2025-07-12 16:05:37 [DEBUG] Received GET /api/agents request
+2025-07-12 16:06:07 [DEBUG] Received GET /api/agents request
+2025-07-12 16:06:37 [DEBUG] Received GET /api/agents request
+2025-07-12 16:07:07 [DEBUG] Received GET /api/agents request
+2025-07-12 16:07:37 [DEBUG] Received GET /api/agents request
+2025-07-12 16:08:07 [DEBUG] Received GET /api/agents request
+2025-07-12 16:08:37 [DEBUG] Received GET /api/agents request
+2025-07-12 16:09:07 [DEBUG] Received GET /api/agents request
+2025-07-12 16:09:37 [DEBUG] Received GET /api/agents request
+2025-07-12 16:10:07 [DEBUG] Received GET /api/agents request
+2025-07-12 16:10:37 [DEBUG] Received GET /api/agents request
+2025-07-12 16:11:03 [DEBUG] Received GET /api/agents request
+2025-07-12 16:11:08 [DEBUG] Received GET /api/agents request
+2025-07-12 16:11:38 [DEBUG] Received GET /api/agents request
+2025-07-12 16:12:08 [DEBUG] Received GET /api/agents request
+2025-07-12 16:12:38 [DEBUG] Received GET /api/agents request
+2025-07-12 16:13:08 [DEBUG] Received GET /api/agents request
+2025-07-12 16:13:39 [DEBUG] Received GET /api/agents request
+2025-07-12 16:14:09 [DEBUG] Received GET /api/agents request
+2025-07-12 16:14:39 [DEBUG] Received GET /api/agents request
+2025-07-12 16:15:09 [DEBUG] Received GET /api/agents request
+2025-07-12 16:15:39 [DEBUG] Received GET /api/agents request
+2025-07-12 16:16:09 [DEBUG] Received GET /api/agents request
+2025-07-12 16:16:39 [DEBUG] Received GET /api/agents request
+2025-07-12 16:17:10 [DEBUG] Received GET /api/agents request
+2025-07-12 16:17:40 [DEBUG] Received GET /api/agents request
+2025-07-12 16:17:57 [DEBUG] Received GET /api/agents request
+2025-07-12 16:18:33 [DEBUG] Received GET /api/agents request
+2025-07-12 16:18:33 [DEBUG] Received GET /api/agents request
+2025-07-12 16:19:03 [DEBUG] Received GET /api/agents request
+2025-07-12 16:19:33 [DEBUG] Received GET /api/agents request
+2025-07-12 16:20:03 [DEBUG] Received GET /api/agents request
+2025-07-12 16:20:33 [DEBUG] Received GET /api/agents request
+2025-07-12 16:21:03 [DEBUG] Received GET /api/agents request
+2025-07-12 16:21:33 [DEBUG] Received GET /api/agents request
+2025-07-12 16:22:03 [DEBUG] Received GET /api/agents request
+2025-07-12 16:22:33 [DEBUG] Received GET /api/agents request
+2025-07-12 16:23:03 [DEBUG] Received GET /api/agents request
+2025-07-12 16:23:33 [DEBUG] Received GET /api/agents request
+2025-07-12 16:24:03 [DEBUG] Received GET /api/agents request
+2025-07-12 16:24:33 [DEBUG] Received GET /api/agents request
+2025-07-12 16:25:03 [DEBUG] Received GET /api/agents request
+2025-07-12 16:25:34 [DEBUG] Received GET /api/agents request
+2025-07-12 16:26:04 [DEBUG] Received GET /api/agents request
+2025-07-12 16:26:34 [DEBUG] Received GET /api/agents request
+2025-07-12 16:27:05 [DEBUG] Received GET /api/agents request
+2025-07-12 16:27:35 [DEBUG] Received GET /api/agents request
+2025-07-12 16:28:05 [DEBUG] Received GET /api/agents request
+2025-07-12 16:28:36 [DEBUG] Received GET /api/agents request
+2025-07-12 16:29:06 [DEBUG] Received GET /api/agents request
+2025-07-12 16:29:36 [DEBUG] Received GET /api/agents request
+2025-07-12 16:30:06 [DEBUG] Received GET /api/agents request
+2025-07-12 16:30:36 [DEBUG] Received GET /api/agents request
+2025-07-12 16:31:07 [DEBUG] Received GET /api/agents request
+2025-07-12 16:31:37 [DEBUG] Received GET /api/agents request
+2025-07-12 16:32:07 [DEBUG] Received GET /api/agents request
+2025-07-12 16:32:38 [DEBUG] Received GET /api/agents request
+2025-07-12 16:33:08 [DEBUG] Received GET /api/agents request
+2025-07-12 16:33:38 [DEBUG] Received GET /api/agents request
+2025-07-12 16:34:08 [DEBUG] Received GET /api/agents request
+2025-07-12 16:34:39 [DEBUG] Received GET /api/agents request
+2025-07-12 16:35:09 [DEBUG] Received GET /api/agents request
+2025-07-12 16:35:39 [DEBUG] Received GET /api/agents request
+2025-07-12 16:36:09 [DEBUG] Received GET /api/agents request
+2025-07-12 16:36:40 [DEBUG] Received GET /api/agents request
+2025-07-12 16:37:10 [DEBUG] Received GET /api/agents request
+2025-07-12 16:37:40 [DEBUG] Received GET /api/agents request
+2025-07-12 16:38:10 [DEBUG] Received GET /api/agents request
+2025-07-12 16:38:40 [DEBUG] Received GET /api/agents request
+2025-07-12 16:39:10 [DEBUG] Received GET /api/agents request
+2025-07-12 16:39:41 [DEBUG] Received GET /api/agents request
+2025-07-12 16:40:11 [DEBUG] Received GET /api/agents request
+2025-07-12 16:40:41 [DEBUG] Received GET /api/agents request
+2025-07-12 16:41:11 [DEBUG] Received GET /api/agents request
+2025-07-12 16:41:41 [DEBUG] Received GET /api/agents request
+2025-07-12 16:42:11 [DEBUG] Received GET /api/agents request
+2025-07-12 16:42:41 [DEBUG] Received GET /api/agents request
+2025-07-12 16:43:12 [DEBUG] Received GET /api/agents request
+2025-07-12 16:43:42 [DEBUG] Received GET /api/agents request
+2025-07-12 16:44:12 [DEBUG] Received GET /api/agents request
+2025-07-12 16:44:42 [DEBUG] Received GET /api/agents request
+2025-07-12 16:45:12 [DEBUG] Received GET /api/agents request
+2025-07-12 16:45:43 [DEBUG] Received GET /api/agents request
+2025-07-12 16:46:13 [DEBUG] Received GET /api/agents request
