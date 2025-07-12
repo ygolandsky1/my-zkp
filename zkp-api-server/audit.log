@@ -682,3 +682,129 @@
 2025-07-10 20:13:49 [DEBUG] Received POST /api/log-action request
 2025-07-10 20:13:49 [INFO] Logging action for Agent ID: simple-agent, Action ID: 2a28f7c8-de9e-45a7-a326-d14b0f1456be
 2025-07-10 20:14:04 [DEBUG] Received GET /api/admin/agents/simple-agent request
+2025-07-12 07:08:26 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-12 07:08:38 [DEBUG] Received GET /api/admin/agents request
+2025-07-12 07:08:47 [ERROR] Error querying all agents DiscoveryService has failed to return results
+2025-07-12 07:51:18 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-12 07:51:29 [DEBUG] Received GET /api/admin/agents request
+2025-07-12 07:51:29 [ERROR] Error querying all agents DiscoveryService: mychannel error: access denied
+2025-07-12 08:24:28 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-12 08:26:59 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-12 08:27:38 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-12 08:29:22 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-12 08:32:31 [DEBUG] Received GET /api/agents request
+2025-07-12 08:32:31 [ERROR] Error querying all agents Unexpected end of JSON input
+2025-07-12 08:32:58 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-12 08:32:58 [INFO] Submitting RegisterAgent transaction for Agent ID: 700d4bc3-fca7-4251-9280-4bfe93f34c8a
+2025-07-12 08:33:32 [DEBUG] Received GET /api/agents request
+2025-07-12 08:33:45 [DEBUG] Received GET /api/admin/agents/700d4bc3-fca7-4251-9280-4bfe93f34c8a request
+2025-07-12 08:33:57 [DEBUG] Received POST /api/execute request
+2025-07-12 08:33:57 [INFO] Passport for 700d4bc3-fca7-4251-9280-4bfe93f34c8a is valid.
+2025-07-12 08:33:57 [INFO] Intent validated for Agent ID: 700d4bc3-fca7-4251-9280-4bfe93f34c8a
+2025-07-12 08:33:57 [INFO] Submitting LogAction transaction for Log ID: log_700d4bc3-fca7-4251-9280-4bfe93f34c8a_1752298437652
+2025-07-12 08:33:59 [INFO] Chaincode returned result: Denied (OutOfScope)
+2025-07-12 08:51:50 [DEBUG] Received GET /api/admin/agents/simple-demo-agent request
+2025-07-12 08:51:50 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-12 08:51:50 [INFO] Submitting RegisterAgent transaction for Agent ID: 49e05c70-6e4d-46b8-af70-1062a52b4593
+2025-07-12 08:51:52 [DEBUG] Received POST /api/log-action request
+2025-07-12 08:51:52 [INFO] Logging action for Agent ID: simple-demo-agent, Action ID: 4e269a87-5cc3-4e3e-886f-2a149c23896f
+2025-07-12 08:51:52 [ERROR] Error logging action No valid responses from any peers. Errors:
+    peer=peer0.org1.example.com:7051, status=500, message=failed to get passport for agent simple-demo-agent: the agent simple-demo-agent does not exist
+    peer=peer0.org2.example.com:9051, status=500, message=failed to get passport for agent simple-demo-agent: the agent simple-demo-agent does not exist
+2025-07-12 08:51:54 [DEBUG] Received POST /api/log-action request
+2025-07-12 08:51:54 [INFO] Logging action for Agent ID: simple-demo-agent, Action ID: 018c5e91-8db0-4189-bef3-f5d999e98738
+2025-07-12 08:51:54 [ERROR] Error logging action No valid responses from any peers. Errors:
+    peer=peer0.org1.example.com:7051, status=500, message=failed to get passport for agent simple-demo-agent: the agent simple-demo-agent does not exist
+    peer=peer0.org2.example.com:9051, status=500, message=failed to get passport for agent simple-demo-agent: the agent simple-demo-agent does not exist
+2025-07-12 08:53:13 [DEBUG] Received GET /api/agents request
+2025-07-12 08:53:26 [DEBUG] Received GET /api/admin/agents/financial-analyzer-v1.2 request
+2025-07-12 08:53:26 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-12 08:53:26 [INFO] Submitting RegisterAgent transaction for Agent ID: 6fcf860f-516b-4c73-b090-4debfd7fc22b
+2025-07-12 08:53:28 [DEBUG] Received POST /api/log-action request
+2025-07-12 08:53:28 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: e16642c4-8f47-4b73-821e-ea2dc00c5e73
+2025-07-12 08:53:28 [ERROR] Error logging action No valid responses from any peers. Errors:
+    peer=peer0.org2.example.com:9051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+    peer=peer0.org1.example.com:7051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+2025-07-12 08:53:29 [DEBUG] Received POST /api/log-action request
+2025-07-12 08:53:30 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: c2701a57-3a15-4fcf-83df-c12720062f86
+2025-07-12 08:53:30 [ERROR] Error logging action No valid responses from any peers. Errors:
+    peer=peer0.org1.example.com:7051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+    peer=peer0.org2.example.com:9051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+2025-07-12 08:53:32 [DEBUG] Received POST /api/log-action request
+2025-07-12 08:53:32 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: 5d9f34ee-ef66-4dc0-b66a-7ea201911a1d
+2025-07-12 08:53:32 [ERROR] Error logging action No valid responses from any peers. Errors:
+    peer=peer0.org2.example.com:9051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+    peer=peer0.org1.example.com:7051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+2025-07-12 08:53:33 [DEBUG] Received POST /api/log-action request
+2025-07-12 08:53:33 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: 6812a716-b687-4831-9f2e-5937aaa149fd
+2025-07-12 08:53:33 [ERROR] Error logging action No valid responses from any peers. Errors:
+    peer=peer0.org1.example.com:7051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+    peer=peer0.org2.example.com:9051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+2025-07-12 08:53:35 [DEBUG] Received POST /api/log-action request
+2025-07-12 08:53:35 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: 7a6ec20e-bb3d-4484-b054-4ad230bcdc45
+2025-07-12 08:53:35 [ERROR] Error logging action No valid responses from any peers. Errors:
+    peer=peer0.org1.example.com:7051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+    peer=peer0.org2.example.com:9051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+2025-07-12 08:53:38 [DEBUG] Received POST /api/log-action request
+2025-07-12 08:53:38 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: 49e8d456-f1b3-42b7-99e8-9d46b2b52e3a
+2025-07-12 08:53:38 [ERROR] Error logging action No valid responses from any peers. Errors:
+    peer=peer0.org1.example.com:7051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+    peer=peer0.org2.example.com:9051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+2025-07-12 08:58:51 [DEBUG] Received GET /api/admin/agents/financial-analyzer-v1.2 request
+2025-07-12 08:58:51 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-12 08:58:51 [INFO] Submitting RegisterAgent transaction for Agent ID: 526465db-fc32-4d38-b35f-48dfd06bd4af
+2025-07-12 08:58:53 [DEBUG] Received POST /api/log-action request
+2025-07-12 08:58:53 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: 1780241f-1407-469d-a88a-aca7f7a84908
+2025-07-12 08:58:53 [ERROR] Error logging action No valid responses from any peers. Errors:
+    peer=peer0.org2.example.com:9051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+    peer=peer0.org1.example.com:7051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+2025-07-12 08:58:55 [DEBUG] Received POST /api/log-action request
+2025-07-12 08:58:55 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: bab78f21-9667-4138-b546-3b44ea31acb1
+2025-07-12 08:58:55 [ERROR] Error logging action No valid responses from any peers. Errors:
+    peer=peer0.org1.example.com:7051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+    peer=peer0.org2.example.com:9051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+2025-07-12 08:58:57 [DEBUG] Received POST /api/log-action request
+2025-07-12 08:58:57 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: 030ef445-107f-4a1b-919b-340778e625c9
+2025-07-12 08:58:57 [ERROR] Error logging action No valid responses from any peers. Errors:
+    peer=peer0.org1.example.com:7051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+    peer=peer0.org2.example.com:9051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+2025-07-12 08:58:58 [DEBUG] Received POST /api/log-action request
+2025-07-12 08:58:58 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: feab23a4-3f03-4b87-b6e3-799c440b7752
+2025-07-12 08:58:58 [ERROR] Error logging action No valid responses from any peers. Errors:
+    peer=peer0.org1.example.com:7051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+    peer=peer0.org2.example.com:9051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+2025-07-12 08:59:00 [DEBUG] Received POST /api/log-action request
+2025-07-12 08:59:00 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: 5810b8eb-2759-422a-aaa5-eaaa7e78934e
+2025-07-12 08:59:00 [ERROR] Error logging action No valid responses from any peers. Errors:
+    peer=peer0.org1.example.com:7051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+    peer=peer0.org2.example.com:9051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+2025-07-12 08:59:03 [DEBUG] Received POST /api/log-action request
+2025-07-12 08:59:03 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: b57a3f17-9542-449d-9e6d-c215b2835244
+2025-07-12 08:59:03 [ERROR] Error logging action No valid responses from any peers. Errors:
+    peer=peer0.org1.example.com:7051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+    peer=peer0.org2.example.com:9051, status=500, message=failed to get passport for agent financial-analyzer-v1.2: the agent financial-analyzer-v1.2 does not exist
+2025-07-12 09:00:51 [DEBUG] Received GET /api/agents request
+2025-07-12 09:00:51 [DEBUG] Received GET /api/admin/agents/financial-analyzer-v1.2 request
+2025-07-12 09:18:11 [INFO] 🚀 ZKP Logger API running at http://localhost:3002
+2025-07-12 09:18:30 [DEBUG] Received GET /api/admin/agents/simple-demo-agent request
+2025-07-12 09:18:30 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-12 09:18:30 [INFO] Submitting RegisterAgent transaction for Agent ID: simple-demo-agent
+2025-07-12 09:18:32 [DEBUG] Received POST /api/log-action request
+2025-07-12 09:18:32 [INFO] Logging action for Agent ID: simple-demo-agent, Action ID: b667346b-4b21-4737-9f18-be19e74bc4b1
+2025-07-12 09:18:35 [DEBUG] Received POST /api/log-action request
+2025-07-12 09:18:36 [INFO] Logging action for Agent ID: simple-demo-agent, Action ID: 1d802f83-8836-4dc7-8558-b945c8bc6eb4
+2025-07-12 09:21:22 [DEBUG] Received GET /api/admin/agents/financial-analyzer-v1.2 request
+2025-07-12 09:21:22 [DEBUG] Received POST /api/admin/register-agent request
+2025-07-12 09:21:22 [INFO] Submitting RegisterAgent transaction for Agent ID: financial-analyzer-v1.2
+2025-07-12 09:21:25 [DEBUG] Received POST /api/log-action request
+2025-07-12 09:21:25 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: 775be06a-8c59-47d0-ad07-913447400b77
+2025-07-12 09:21:28 [DEBUG] Received POST /api/log-action request
+2025-07-12 09:21:28 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: fed341aa-58ec-4914-9229-9f014c5fe5a7
+2025-07-12 09:21:33 [DEBUG] Received POST /api/log-action request
+2025-07-12 09:21:33 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: 248296f3-2531-4806-a820-356abb971776
+2025-07-12 09:21:36 [DEBUG] Received POST /api/log-action request
+2025-07-12 09:21:36 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: 6a52c74f-ecfd-44d2-a58b-f104c2167b3f
+2025-07-12 09:21:41 [DEBUG] Received POST /api/log-action request
+2025-07-12 09:21:41 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: e7300561-985e-42dc-b2b5-08f0921c857a
+2025-07-12 09:21:45 [DEBUG] Received POST /api/log-action request
+2025-07-12 09:21:45 [INFO] Logging action for Agent ID: financial-analyzer-v1.2, Action ID: f13c7c39-6eff-4acd-bcd3-6d719381195a

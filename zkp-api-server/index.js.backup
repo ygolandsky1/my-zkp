@@ -64,13 +64,14 @@ async function getGateway() {
 // --- API Endpoints ---
 
 router.post("/admin/register-agent", async (req, res) => {
-    const { agentId, role, purpose, missionScope } = req.body;
+    const { role, purpose, missionScope } = req.body;
     logger.debug('Received POST /api/admin/register-agent request', { role, purpose, missionScope });
 
-    if (!agentId || !role || !purpose || !missionScope) {
-        return res.status(400).json({ error: "Missing required fields: agentId, role, purpose, and missionScope are required." });
+    if (!role || !purpose || !missionScope) {
+        return res.status(400).json({ error: "Missing required fields: role, purpose, and missionScope are required." });
     }
 
+    const agentId = uuidv4();
     const issuedAt = new Date().toISOString();
     
     const passport = {

@@ -1,0 +1,45 @@
+{
+  "name": "@laguardai/langgraph-plugin",
+  "version": "0.1.0",
+  "description": "Trust Fabric integration for LangGraph agents - Add enterprise governance, compliance, and audit trails to any LangGraph agent with 3 lines of code",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "echo 'Build step - placeholder for future bundling'",
+    "example:simple": "node examples/simple-example.js",
+    "example:financial": "node examples/financial-agent.js"
+  },
+  "keywords": [
+    "langgraph",
+    "ai-governance", 
+    "blockchain",
+    "compliance",
+    "audit-trail",
+    "zero-knowledge",
+    "trust-fabric",
+    "agent-security"
+  ],
+  "author": "LaGuardAI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laguardai/langgraph-plugin"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "uuid": "^9.0.0"
+  },
+  "peerDependencies": {
+    "@langchain/langgraph": ">=0.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "files": [
+    "src/",
+    "examples/",
+    "docs/",
+    "README.md"
+  ]
+}

@@ -1,0 +1,6 @@
+tests/
+examples/
+.env*
+*.log
+coverage/
+.nyc_output/
